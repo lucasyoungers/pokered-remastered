@@ -1070,17 +1070,20 @@ VulpixEvosMoves:
 	db EV_ITEM, FIRE_STONE, 1, NINETALES
 	db 0
 ; Learnset
-	db 16, QUICK_ATTACK
-	db 21, ROAR
-	db 28, CONFUSE_RAY
-	db 35, FLAMETHROWER
-	db 42, FIRE_SPIN
+	db 5, TAIL_WHIP
+	db 9, ROAR
+	db 13, QUICK_ATTACK
+	db 21, CONFUSE_RAY
+	db 29, FLAMETHROWER
+	db 33, HAZE
+	db 41, FIRE_SPIN
 	db 0
 
 NinetalesEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 45, SHADOW_BALL
 	db 0
 
 PikachuEvosMoves:
