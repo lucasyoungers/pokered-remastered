@@ -406,11 +406,17 @@ CuboneEvosMoves:
 	db EV_LEVEL, 28, MAROWAK
 	db 0
 ; Learnset
-	db 25, LEER
-	db 31, FOCUS_ENERGY
-	db 38, THRASH
-	db 43, BONEMERANG
-	db 46, RAGE
+	db 5, TAIL_WHIP
+	db 9, BONE_CLUB
+	db 13, HEADBUTT
+	db 17, LEER
+	db 21, FOCUS_ENERGY
+	db 25, BONEMERANG
+	db 29, RAGE
+	db 33, TAKE_DOWN
+	db 37, THRASH
+	db 41, BULLDOZE
+	db 45, DOUBLE_EDGE
 	db 0
 
 RhyhornEvosMoves:
@@ -1825,11 +1831,17 @@ MarowakEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 25, LEER
-	db 33, FOCUS_ENERGY
-	db 41, THRASH
-	db 48, BONEMERANG
-	db 55, RAGE
+	db 5, TAIL_WHIP
+	db 9, BONE_CLUB
+	db 13, HEADBUTT
+	db 17, LEER
+	db 21, FOCUS_ENERGY
+	db 25, BONEMERANG
+	db 32, RAGE
+	db 39, TAKE_DOWN
+	db 46, THRASH
+	db 53, BULLDOZE
+	db 61, DOUBLE_EDGE
 	db 0
 
 MissingNo92EvosMoves:

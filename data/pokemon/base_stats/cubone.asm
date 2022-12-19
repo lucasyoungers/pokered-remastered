@@ -1,6 +1,6 @@
 	db DEX_CUBONE ; pokedex id
 
-	db  50,  50,  95,  35,  40
+	db  50,  50,  95,  35,  50
 	;   hp  atk  def  spd  spc
 
 	db GROUND, GROUND ; type
@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/cubone.pic", 0, 1 ; sprite dimensions
 	dw CubonePicFront, CubonePicBack
 
-	db BONE_CLUB, GROWL, NO_MOVE, NO_MOVE ; level 1 learnset
+	db GROWL, NO_MOVE, NO_MOVE, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
