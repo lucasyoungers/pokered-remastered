@@ -178,6 +178,7 @@ MoveSoundTable:
 	db SFX_BATTLE_13,          $00, $e0 ; FEATHERDANCE
 	db SFX_BATTLE_31,          $ff, $40 ; ASTONISH
 	db SFX_BATTLE_13,          $f1, $ff ; SHADOW_BALL
+	db SFX_BATTLE_29,          $0f, $e0 ; BULLDOZE
 	db SFX_BATTLE_0B,          $00, $80 ; STRUGGLE
 	assert_table_length NUM_ATTACKS
 	db SFX_BATTLE_0B,          $00, $80

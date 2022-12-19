@@ -177,5 +177,6 @@ MoveNames::
 	li "FEATHERDANCE"
 	li "ASTONISH"
 	li "SHADOW BALL"
+	li "BULLDOZE"
 	li "STRUGGLE"
 	assert_list_length NUM_ATTACKS

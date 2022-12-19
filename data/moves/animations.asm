@@ -178,6 +178,7 @@ AttackAnimationPointers:
 	dw StruggleAnim
 	dw AstonishAnim
 	dw ShadowBallAnim
+	dw BulldozeAnim
 	assert_table_length NUM_ATTACKS
 	dw ShowPicAnim
 	dw EnemyFlashAnim
@@ -730,6 +731,7 @@ RockThrowAnim:
 	battle_anim ROCK_THROW, SUBANIM_0_ROCKS_FALL_ENEMY, 0, 4
 	db -1 ; end
 
+BulldozeAnim:
 EarthquakeAnim:
 	battle_anim EARTHQUAKE, SE_SHAKE_SCREEN
 	battle_anim EARTHQUAKE, SE_SHAKE_SCREEN

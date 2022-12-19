@@ -183,7 +183,8 @@
 	const FEATHERDANCE ; af
 	const ASTONISH     ; b0
 	const SHADOW_BALL  ; b1
-	const STRUGGLE     ; b2
+	const BULLDOZE     ; b2
+	const STRUGGLE     ; b3
 DEF NUM_ATTACKS EQU const_value - 1
 
 	; Moves do double duty as animation identifiers.
