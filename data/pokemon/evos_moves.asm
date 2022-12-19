@@ -1377,6 +1377,7 @@ WeedleEvosMoves:
 	db EV_LEVEL, 7, KAKUNA
 	db 0
 ; Learnset
+	db 9, BUG_BITE
 	db 0
 
 KakunaEvosMoves:
@@ -1390,12 +1391,13 @@ BeedrillEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 12, FURY_ATTACK
-	db 16, FOCUS_ENERGY
+	db 10, FURY_ATTACK
+	db 15, FOCUS_ENERGY
 	db 20, TWINEEDLE
 	db 25, RAGE
 	db 30, PIN_MISSILE
 	db 35, AGILITY
+	db 40, MEGAHORN
 	db 0
 
 MissingNo73EvosMoves:
@@ -1478,6 +1480,7 @@ CaterpieEvosMoves:
 	db EV_LEVEL, 7, METAPOD
 	db 0
 ; Learnset
+	db 9, BUG_BITE
 	db 0
 
 MetapodEvosMoves:
@@ -1491,13 +1494,16 @@ ButterfreeEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 12, CONFUSION
-	db 15, POISONPOWDER
-	db 16, STUN_SPORE
-	db 17, SLEEP_POWDER
-	db 21, SUPERSONIC
-	db 26, WHIRLWIND
-	db 32, PSYBEAM
+	db 10, CONFUSION
+	db 13, POISONPOWDER
+	db 14, SLEEP_POWDER
+	db 15, STUN_SPORE
+	db 18, SUPERSONIC
+	db 23, WHIRLWIND
+	db 28, GUST
+	db 34, PSYBEAM
+	db 40, HAZE
+	db 47, LEECH_LIFE
 	db 0
 
 MachampEvosMoves:
