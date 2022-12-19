@@ -174,6 +174,7 @@ AttackAnimationPointers:
 	dw MegahornAnim
 	dw FlameChargeAnim
 	dw ScaryFaceAnim
+	dw FeatherDanceAnim
 	dw StruggleAnim
 	assert_table_length NUM_ATTACKS
 	dw ShowPicAnim
@@ -323,6 +324,7 @@ WingAttackAnim:
 	battle_anim WING_ATTACK, SUBANIM_1_STAR_BIG_MOVING, 1, 6
 	db -1 ; end
 
+FeatherDanceAnim:
 WhirlwindAnim:
 	battle_anim WHIRLWIND, SUBANIM_1_TORNADO, 1, 6
 	battle_anim NO_MOVE, SE_SLIDE_ENEMY_MON_OFF

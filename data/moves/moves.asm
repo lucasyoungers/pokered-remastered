@@ -185,5 +185,6 @@ Moves:
 	move MEGAHORN,     NO_ADDITIONAL_EFFECT,       120, BUG,           85, 10
 	move FLAME_CHARGE, SPEED_UP1_EFFECT,            50, FIRE,         100, 20
 	move SCARY_FACE,   SPEED_DOWN2_EFFECT,           0, NORMAL,       100, 10
+	move FEATHERDANCE, ATTACK_DOWN2_EFFECT,          0, FLYING,       100, 15
 	move STRUGGLE,     RECOIL_EFFECT,               50, BIRD,         100, 10
 	assert_table_length NUM_ATTACKS

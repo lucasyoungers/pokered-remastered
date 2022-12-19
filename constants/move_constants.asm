@@ -180,7 +180,8 @@
 	const MEGAHORN     ; ac
 	const FLAME_CHARGE ; ad
 	const SCARY_FACE   ; ae
-	const STRUGGLE     ; af
+	const FEATHERDANCE ; af
+	const STRUGGLE     ; b0
 DEF NUM_ATTACKS EQU const_value - 1
 
 	; Moves do double duty as animation identifiers.

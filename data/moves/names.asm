@@ -174,5 +174,6 @@ MoveNames::
 	li "MEGAHORN"
 	li "FLAME CHARGE"
 	li "SCARY FACE"
+	li "FEATHERDANCE"
 	li "STRUGGLE"
 	assert_list_length NUM_ATTACKS
