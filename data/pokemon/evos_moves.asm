@@ -1345,11 +1345,15 @@ ZubatEvosMoves:
 	db EV_LEVEL, 22, GOLBAT
 	db 0
 ; Learnset
-	db 10, SUPERSONIC
-	db 15, BITE
-	db 21, CONFUSE_RAY
-	db 28, WING_ATTACK
-	db 36, HAZE
+	db 6, SUPERSONIC
+	db 11, ASTONISH
+	db 16, BITE
+	db 21, WING_ATTACK
+	db 26, CONFUSE_RAY
+	db 31, LEECH_LIFE
+	db 36, SCARY_FACE
+	db 41, SLUDGE_WAVE
+	db 49, HAZE
 	db 0
 
 EkansEvosMoves:
@@ -1578,11 +1582,15 @@ GolbatEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 10, SUPERSONIC
-	db 15, BITE
-	db 21, CONFUSE_RAY
-	db 32, WING_ATTACK
-	db 43, HAZE
+	db 6, SUPERSONIC
+	db 11, ASTONISH
+	db 16, BITE
+	db 21, WING_ATTACK
+	db 28, CONFUSE_RAY
+	db 35, LEECH_LIFE
+	db 42, SCARY_FACE
+	db 49, SLUDGE_WAVE
+	db 56, HAZE
 	db 0
 
 MewtwoEvosMoves:
