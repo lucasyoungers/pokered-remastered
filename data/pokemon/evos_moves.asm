@@ -321,7 +321,8 @@ ExeggutorEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 28, STOMP
+	db 19, STOMP
+	db 31, EGG_BOMB
 	db 0
 
 LickitungEvosMoves:
@@ -340,12 +341,13 @@ ExeggcuteEvosMoves:
 	db EV_ITEM, LEAF_STONE, 1, EXEGGUTOR
 	db 0
 ; Learnset
-	db 25, REFLECT
-	db 28, LEECH_SEED
-	db 32, STUN_SPORE
-	db 37, POISONPOWDER
-	db 42, SOLARBEAM
-	db 48, SLEEP_POWDER
+	db 7, REFLECT
+	db 13, LEECH_SEED
+	db 19, CONFUSION
+	db 25, STUN_SPORE
+	db 31, POISONPOWDER
+	db 37, SLEEP_POWDER
+	db 43, SOLARBEAM
 	db 0
 
 GrimerEvosMoves:
