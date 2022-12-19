@@ -1951,24 +1951,33 @@ PonytaEvosMoves:
 	db EV_LEVEL, 40, RAPIDASH
 	db 0
 ; Learnset
-	db 30, TAIL_WHIP
-	db 32, STOMP
-	db 35, GROWL
-	db 39, FIRE_SPIN
-	db 43, TAKE_DOWN
-	db 48, AGILITY
+	db 7, GROWL
+	db 10, TAIL_WHIP
+	db 16, EMBER
+	db 19, STOMP
+	db 25, FLAME_CHARGE
+	db 28, TAKE_DOWN
+	db 34, AGILITY
+	db 38, FIRE_BLAST
+	db 44, DOUBLE_EDGE
+	db 48, FIRE_SPIN
 	db 0
 
 RapidashEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 30, TAIL_WHIP
-	db 32, STOMP
-	db 35, GROWL
-	db 39, FIRE_SPIN
-	db 47, TAKE_DOWN
-	db 55, AGILITY
+	db 7, GROWL
+	db 10, TAIL_WHIP
+	db 16, EMBER
+	db 19, STOMP
+	db 25, FLAME_CHARGE
+	db 28, TAKE_DOWN
+	db 34, AGILITY
+	db 38, FIRE_BLAST
+	db 40, HORN_DRILL
+	db 49, DOUBLE_EDGE
+	db 58, MEGAHORN
 	db 0
 
 RattataEvosMoves:
