@@ -165,6 +165,9 @@ AttackAnimationPointers:
 	dw SlashAnim
 	dw SubstituteAnim
 	dw GigaDrainAnim
+	dw FrenzyPlantAnim
+	dw BlastBurnAnim
+	dw HydroCannonAnim
 	dw StruggleAnim
 	assert_table_length NUM_ATTACKS
 	dw ShowPicAnim
@@ -551,6 +554,9 @@ AuroraBeamAnim:
 	battle_anim NO_MOVE, SE_DELAY_ANIMATION_10
 	db -1 ; end
 
+FrenzyPlantAnim:
+BlastBurnAnim:
+HydroCannonAnim:
 HyperBeamAnim:
 	battle_anim LEECH_SEED, SE_DARK_SCREEN_PALETTE
 	battle_anim NO_MOVE, SE_SPIRAL_BALLS_INWARD

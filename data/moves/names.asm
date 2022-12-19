@@ -165,5 +165,8 @@ MoveNames::
 	li "SLASH"
 	li "SUBSTITUTE"
 	li "GIGA DRAIN"
+	li "FRENZY PLANT"
+	li "BLAST BURN"
+	li "HYDRO CANNON"
 	li "STRUGGLE"
 	assert_list_length NUM_ATTACKS

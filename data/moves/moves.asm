@@ -176,5 +176,8 @@ Moves:
 	move SLASH,        NO_ADDITIONAL_EFFECT,        70, NORMAL,       100, 20
 	move SUBSTITUTE,   SUBSTITUTE_EFFECT,            0, NORMAL,       100, 10
 	move GIGA_DRAIN,   DRAIN_HP_EFFECT,             75, GRASS,        100, 10
+	move FRENZY_PLANT, HYPER_BEAM_EFFECT,          150, GRASS,         90,  5
+	move BLAST_BURN,   HYPER_BEAM_EFFECT,          150, FIRE,          90,  5
+	move HYDRO_CANNON, HYPER_BEAM_EFFECT,          150, WATER,         90,  5
 	move STRUGGLE,     RECOIL_EFFECT,               50, BIRD,         100, 10
 	assert_table_length NUM_ATTACKS
