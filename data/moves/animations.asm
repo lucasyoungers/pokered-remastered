@@ -168,6 +168,8 @@ AttackAnimationPointers:
 	dw FrenzyPlantAnim
 	dw BlastBurnAnim
 	dw HydroCannonAnim
+	dw SludgeWaveAnim
+	dw GunkShotAnim
 	dw StruggleAnim
 	assert_table_length NUM_ATTACKS
 	dw ShowPicAnim
@@ -929,6 +931,8 @@ SmogAnim:
 	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
 	db -1 ; end
 
+SludgeWaveAnim:
+GunkShotAnim:
 SludgeAnim:
 	battle_anim SLUDGE, SUBANIM_1_BLOB_TOSS, 1, 6
 	battle_anim SLUDGE, SUBANIM_1_BLOB_DRIP_ENEMY, 1, 6

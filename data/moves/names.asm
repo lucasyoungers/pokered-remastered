@@ -168,5 +168,7 @@ MoveNames::
 	li "FRENZY PLANT"
 	li "BLAST BURN"
 	li "HYDRO CANNON"
+	li "SLUDGE WAVE"
+	li "GUNK SHOT"
 	li "STRUGGLE"
 	assert_list_length NUM_ATTACKS

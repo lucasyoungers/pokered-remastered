@@ -169,6 +169,8 @@ MoveSoundTable:
 	db SFX_BATTLE_36,          $00, $80 ; FRENZY_PLANT
 	db SFX_BATTLE_36,          $00, $80 ; BLAST_BURN
 	db SFX_BATTLE_36,          $00, $80 ; HYDRO_CANNON
+	db SFX_BATTLE_2A,          $20, $20 ; SLUDGE_WAVE
+	db SFX_BATTLE_2A,          $20, $20 ; GUNK_SHOT
 	db SFX_BATTLE_0B,          $00, $80 ; STRUGGLE
 	assert_table_length NUM_ATTACKS
 	db SFX_BATTLE_0B,          $00, $80
