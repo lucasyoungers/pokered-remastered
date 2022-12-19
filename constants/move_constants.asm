@@ -184,7 +184,8 @@
 	const ASTONISH     ; b0
 	const SHADOW_BALL  ; b1
 	const BULLDOZE     ; b2
-	const STRUGGLE     ; b3
+	const DRAGONBREATH ; b3
+	const STRUGGLE     ; b4
 DEF NUM_ATTACKS EQU const_value - 1
 
 	; Moves do double duty as animation identifiers.
