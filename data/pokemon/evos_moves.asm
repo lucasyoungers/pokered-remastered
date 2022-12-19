@@ -591,12 +591,18 @@ TangelaEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 29, ABSORB
-	db 32, POISONPOWDER
-	db 36, STUN_SPORE
-	db 39, SLEEP_POWDER
-	db 45, BODY_SLAM
-	db 49, GROWTH
+	db 5, SLEEP_POWDER
+	db 8, ABSORB
+	db 12, GROWTH
+	db 15, POISONPOWDER
+	db 19, VINE_WHIP
+	db 22, WRAP
+	db 26, MEGA_DRAIN
+	db 29, STUN_SPORE
+	db 33, ROCK_SLIDE
+	db 36, ASTONISH
+	db 43, BODY_SLAM
+	db 50, GIGA_DRAIN
 	db 0
 
 MissingNo1FEvosMoves:
