@@ -217,11 +217,14 @@ KangaskhanEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 26, BITE
-	db 31, TAIL_WHIP
-	db 36, MEGA_PUNCH
-	db 41, LEER
-	db 46, DIZZY_PUNCH
+	db 7, BITE
+	db 13, TAIL_WHIP
+	db 19, QUICK_ATTACK
+	db 25, MEGA_PUNCH
+	db 31, RAGE
+	db 37, MACH_PUNCH
+	db 43, DIZZY_PUNCH
+	db 49, COUNTER
 	db 0
 
 NidoranMEvosMoves:

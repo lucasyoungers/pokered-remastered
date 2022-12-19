@@ -1,6 +1,6 @@
 	db DEX_KANGASKHAN ; pokedex id
 
-	db 105,  95,  80,  90,  40
+	db 105,  95,  80,  90,  80
 	;   hp  atk  def  spd  spc
 
 	db NORMAL, NORMAL ; type
@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/kangaskhan.pic", 0, 1 ; sprite dimensions
 	dw KangaskhanPicFront, KangaskhanPicBack
 
-	db FURY_ATTACK, RAGE, NO_MOVE, NO_MOVE ; level 1 learnset
+	db FURY_ATTACK, LEER, NO_MOVE, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
