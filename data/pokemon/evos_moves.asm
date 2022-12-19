@@ -645,7 +645,7 @@ KadabraEvosMoves:
 
 GravelerEvosMoves:
 ; Evolutions
-	db EV_TRADE, 1, GOLEM
+	db EV_LEVEL, 40, GOLEM
 	db 0
 ; Learnset
 	db 6, DEFENSE_CURL
