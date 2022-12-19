@@ -170,6 +170,7 @@ AttackAnimationPointers:
 	dw HydroCannonAnim
 	dw SludgeWaveAnim
 	dw GunkShotAnim
+	dw BugBiteAnim
 	dw StruggleAnim
 	assert_table_length NUM_ATTACKS
 	dw ShowPicAnim
@@ -458,6 +459,7 @@ LeerAnim:
 	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
 	db -1 ; end
 
+BugBiteAnim:
 BiteAnim:
 	battle_anim BITE, SUBANIM_0_STAR_THRICE, 0, 8
 	db -1 ; end

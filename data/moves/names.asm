@@ -170,5 +170,6 @@ MoveNames::
 	li "HYDRO CANNON"
 	li "SLUDGE WAVE"
 	li "GUNK SHOT"
+	li "BUG BITE"
 	li "STRUGGLE"
 	assert_list_length NUM_ATTACKS
