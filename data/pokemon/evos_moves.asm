@@ -275,7 +275,9 @@ NidokingEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 23, THRASH
+	db 35, THRASH
+	db 43, EARTHQUAKE
+	db 58, MEGAHORN
 	db 0
 
 SlowbroEvosMoves:
@@ -376,7 +378,9 @@ NidoqueenEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 23, BODY_SLAM
+	db 35, BODY_SLAM
+	db 43, EARTHQUAKE
+	db 58, GUNK_SHOT
 	db 0
 
 CuboneEvosMoves:
