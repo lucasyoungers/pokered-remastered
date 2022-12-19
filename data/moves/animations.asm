@@ -388,8 +388,8 @@ HornAttackAnim:
 	db -1 ; end
 
 FuryAttackAnim:
-	battle_anim FURY_ATTACK, SUBANIM_0_HORN_JAB_THRICE, 0, 2
-	battle_anim NO_MOVE, SUBANIM_0_HORN_JAB_THRICE, 0, 2
+	battle_anim FURY_ATTACK, SUBANIM_0_STAR_THRICE, 0, 4
+	battle_anim FURY_ATTACK, SUBANIM_0_STAR_THRICE, 0, 4
 	db -1 ; end
 
 HornDrillAnim:
