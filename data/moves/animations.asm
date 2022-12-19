@@ -172,6 +172,7 @@ AttackAnimationPointers:
 	dw GunkShotAnim
 	dw BugBiteAnim
 	dw MegahornAnim
+	dw FlameChargeAnim
 	dw StruggleAnim
 	assert_table_length NUM_ATTACKS
 	dw ShowPicAnim
@@ -422,6 +423,7 @@ ThrashAnim:
 	battle_anim THRASH, SUBANIM_1_STAR_BIG_MOVING, 1, 6
 	db -1 ; end
 
+FlameChargeAnim:
 DoubleEdgeAnim:
 	battle_anim LEECH_SEED, SE_LIGHT_SCREEN_PALETTE
 	battle_anim NO_MOVE, SUBANIM_0_CIRCLES_CENTERING, 0, 6
