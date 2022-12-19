@@ -1201,22 +1201,30 @@ SandshrewEvosMoves:
 	db EV_LEVEL, 22, SANDSLASH
 	db 0
 ; Learnset
-	db 10, SAND_ATTACK
-	db 17, SLASH
-	db 24, POISON_STING
-	db 31, SWIFT
-	db 38, FURY_ATTACK
+	db 3, SAND_ATTACK
+	db 5, POISON_STING
+	db 9, FURY_ATTACK
+	db 14, SWIFT
+	db 20, BULLDOZE
+	db 26, SLASH
+	db 30, DIG
+	db 38, SWORDS_DANCE
+	db 46, EARTHQUAKE
 	db 0
 
 SandslashEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 10, SAND_ATTACK
-	db 17, SLASH
-	db 27, POISON_STING
-	db 36, SWIFT
-	db 47, FURY_ATTACK
+	db 3, SAND_ATTACK
+	db 5, POISON_STING
+	db 9, FURY_ATTACK
+	db 14, SWIFT
+	db 20, BULLDOZE
+	db 28, SLASH
+	db 33, DIG
+	db 43, SWORDS_DANCE
+	db 53, EARTHQUAKE
 	db 0
 
 OmanyteEvosMoves:
