@@ -264,11 +264,15 @@ VoltorbEvosMoves:
 	db EV_LEVEL, 30, ELECTRODE
 	db 0
 ; Learnset
-	db 17, SONICBOOM
-	db 22, SELFDESTRUCT
-	db 29, LIGHT_SCREEN
-	db 36, SWIFT
-	db 43, EXPLOSION
+	db 8, SCREECH
+	db 15, SONICBOOM
+	db 21, THUNDERSHOCK
+	db 27, SELFDESTRUCT
+	db 32, REFLECT
+	db 37, LIGHT_SCREEN
+	db 42, SWIFT
+	db 46, EXPLOSION
+	db 49, THUNDERBOLT
 	db 0
 
 NidokingEvosMoves:
@@ -1775,11 +1779,15 @@ ElectrodeEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 17, SONICBOOM
-	db 22, SELFDESTRUCT
-	db 29, LIGHT_SCREEN
-	db 40, SWIFT
-	db 50, EXPLOSION
+	db 8, SCREECH
+	db 15, SONICBOOM
+	db 21, THUNDERSHOCK
+	db 27, SELFDESTRUCT
+	db 34, REFLECT
+	db 41, LIGHT_SCREEN
+	db 48, SWIFT
+	db 54, EXPLOSION
+	db 59, THUNDERBOLT
 	db 0
 
 ClefableEvosMoves:
