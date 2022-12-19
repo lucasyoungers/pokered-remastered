@@ -1818,7 +1818,7 @@ MissingNo92EvosMoves:
 
 HaunterEvosMoves:
 ; Evolutions
-	db EV_TRADE, 1, GENGAR
+	db EV_LEVEL, 40, GENGAR
 	db 0
 ; Learnset
 	db 8, ASTONISH
