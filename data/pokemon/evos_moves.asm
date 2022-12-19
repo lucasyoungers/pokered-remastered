@@ -1104,11 +1104,14 @@ KrabbyEvosMoves:
 	db EV_LEVEL, 28, KINGLER
 	db 0
 ; Learnset
-	db 20, VICEGRIP
-	db 25, GUILLOTINE
-	db 30, STOMP
-	db 35, CRABHAMMER
-	db 40, HARDEN
+	db 5, LEER
+	db 12, VICEGRIP
+	db 16, HARDEN
+	db 23, SWORDS_DANCE
+	db 27, STOMP
+	db 34, GUILLOTINE
+	db 41, DIG
+	db 45, CRABHAMMER
 	db 0
 
 MissingNo4FEvosMoves:
@@ -1745,11 +1748,14 @@ KinglerEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 20, VICEGRIP
-	db 25, GUILLOTINE
-	db 34, STOMP
-	db 42, CRABHAMMER
-	db 49, HARDEN
+	db 5, LEER
+	db 12, VICEGRIP
+	db 16, HARDEN
+	db 23, SWORDS_DANCE
+	db 27, STOMP
+	db 38, GUILLOTINE
+	db 49, DIG
+	db 57, CRABHAMMER
 	db 0
 
 CloysterEvosMoves:
