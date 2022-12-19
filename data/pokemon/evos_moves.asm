@@ -363,8 +363,14 @@ GengarEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 29, HYPNOSIS
-	db 38, DREAM_EATER
+	db 8, ASTONISH
+	db 13, SCARY_FACE
+	db 16, PSYWAVE
+	db 21, NIGHT_SHADE
+	db 31, CONFUSE_RAY
+	db 39, DREAM_EATER
+	db 53, HAZE
+	db 65, SHADOW_BALL
 	db 0
 
 NidoranFEvosMoves:
@@ -487,8 +493,14 @@ GastlyEvosMoves:
 	db EV_LEVEL, 25, HAUNTER
 	db 0
 ; Learnset
-	db 27, HYPNOSIS
-	db 35, DREAM_EATER
+	db 8, ASTONISH
+	db 13, SCARY_FACE
+	db 16, PSYWAVE
+	db 21, NIGHT_SHADE
+	db 28, CONFUSE_RAY
+	db 33, DREAM_EATER
+	db 36, HAZE
+	db 43, SHADOW_BALL
 	db 0
 
 ScytherEvosMoves:
@@ -1809,8 +1821,14 @@ HaunterEvosMoves:
 	db EV_TRADE, 1, GENGAR
 	db 0
 ; Learnset
-	db 29, HYPNOSIS
-	db 38, DREAM_EATER
+	db 8, ASTONISH
+	db 13, SCARY_FACE
+	db 16, PSYWAVE
+	db 21, NIGHT_SHADE
+	db 31, CONFUSE_RAY
+	db 39, DREAM_EATER
+	db 48, HAZE
+	db 55, SHADOW_BALL
 	db 0
 
 AbraEvosMoves:
