@@ -249,11 +249,13 @@ SpearowEvosMoves:
 	db EV_LEVEL, 20, FEAROW
 	db 0
 ; Learnset
-	db 9, LEER
-	db 15, FURY_ATTACK
-	db 22, MIRROR_MOVE
-	db 29, DRILL_PECK
-	db 36, AGILITY
+	db 7, LEER
+	db 13, FURY_ATTACK
+	db 19, ASTONISH
+	db 25, SWIFT
+	db 31, MIRROR_MOVE
+	db 37, DRILL_PECK
+	db 43, AGILITY
 	db 0
 
 VoltorbEvosMoves:
@@ -585,11 +587,12 @@ FearowEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 9, LEER
-	db 15, FURY_ATTACK
-	db 25, MIRROR_MOVE
-	db 34, DRILL_PECK
-	db 43, AGILITY
+	db 7, LEER
+	db 13, FURY_ATTACK
+	db 26, ASTONISH
+	db 32, MIRROR_MOVE
+	db 40, DRILL_PECK
+	db 47, AGILITY
 	db 0
 
 PidgeyEvosMoves:
