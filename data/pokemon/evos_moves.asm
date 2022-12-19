@@ -284,13 +284,17 @@ SlowbroEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 18, DISABLE
-	db 22, HEADBUTT
-	db 27, GROWL
-	db 33, WATER_GUN
+	db 6, GROWL
+	db 11, WATER_GUN
+	db 15, CONFUSION
+	db 20, DISABLE
+	db 25, HEADBUTT
+	db 29, BUBBLEBEAM
+	db 34, PSYBEAM
 	db 37, DEFENSE_CURL
-	db 44, AMNESIA
-	db 55, PSYCHIC_M
+	db 41, RECOVER
+	db 47, AMNESIA
+	db 54, PSYCHIC_M
 	db 0
 
 IvysaurEvosMoves:
@@ -620,11 +624,15 @@ SlowpokeEvosMoves:
 	db EV_LEVEL, 37, SLOWBRO
 	db 0
 ; Learnset
-	db 18, DISABLE
-	db 22, HEADBUTT
-	db 27, GROWL
-	db 33, WATER_GUN
-	db 40, AMNESIA
+	db 6, GROWL
+	db 11, WATER_GUN
+	db 15, CONFUSION
+	db 20, DISABLE
+	db 25, HEADBUTT
+	db 29, BUBBLEBEAM
+	db 34, PSYBEAM
+	db 39, RECOVER
+	db 43, AMNESIA
 	db 48, PSYCHIC_M
 	db 0
 
