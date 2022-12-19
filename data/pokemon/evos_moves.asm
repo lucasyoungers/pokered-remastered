@@ -648,12 +648,15 @@ GravelerEvosMoves:
 	db EV_TRADE, 1, GOLEM
 	db 0
 ; Learnset
-	db 11, DEFENSE_CURL
-	db 16, ROCK_THROW
+	db 6, DEFENSE_CURL
+	db 11, ROCK_THROW
+	db 16, BULLDOZE
 	db 21, SELFDESTRUCT
-	db 29, HARDEN
-	db 36, EARTHQUAKE
-	db 43, EXPLOSION
+	db 29, TAKE_DOWN
+	db 37, ROCK_SLIDE
+	db 45, EARTHQUAKE
+	db 53, EXPLOSION
+	db 62, DOUBLE_EDGE
 	db 0
 
 ChanseyEvosMoves:
@@ -775,12 +778,15 @@ GolemEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 11, DEFENSE_CURL
-	db 16, ROCK_THROW
+	db 6, DEFENSE_CURL
+	db 11, ROCK_THROW
+	db 16, BULLDOZE
 	db 21, SELFDESTRUCT
-	db 29, HARDEN
-	db 36, EARTHQUAKE
-	db 43, EXPLOSION
+	db 29, TAKE_DOWN
+	db 37, ROCK_SLIDE
+	db 47, EARTHQUAKE
+	db 57, EXPLOSION
+	db 67, DOUBLE_EDGE
 	db 0
 
 MissingNo32EvosMoves:
@@ -2019,12 +2025,15 @@ GeodudeEvosMoves:
 	db EV_LEVEL, 25, GRAVELER
 	db 0
 ; Learnset
-	db 11, DEFENSE_CURL
-	db 16, ROCK_THROW
+	db 6, DEFENSE_CURL
+	db 11, ROCK_THROW
+	db 16, BULLDOZE
 	db 21, SELFDESTRUCT
-	db 26, HARDEN
-	db 31, EARTHQUAKE
-	db 36, EXPLOSION
+	db 26, TAKE_DOWN
+	db 31, ROCK_SLIDE
+	db 36, EARTHQUAKE
+	db 41, EXPLOSION
+	db 46, DOUBLE_EDGE
 	db 0
 
 PorygonEvosMoves:
