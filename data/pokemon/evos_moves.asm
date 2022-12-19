@@ -720,12 +720,15 @@ ChanseyEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 24, SING
-	db 30, GROWL
-	db 38, MINIMIZE
-	db 44, DEFENSE_CURL
-	db 48, LIGHT_SCREEN
-	db 54, DOUBLE_EDGE
+	db 9, TAIL_WHIP
+	db 13, RECOVER
+	db 17, DOUBLESLAP
+	db 23, MINIMIZE
+	db 29, SING
+	db 35, EGG_BOMB
+	db 41, DEFENSE_CURL
+	db 49, LIGHT_SCREEN
+	db 57, DOUBLE_EDGE
 	db 0
 
 MachokeEvosMoves:
