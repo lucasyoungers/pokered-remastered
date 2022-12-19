@@ -296,12 +296,14 @@ IvysaurEvosMoves:
 	db 0
 ; Learnset
 	db 7, LEECH_SEED
-	db 13, VINE_WHIP
-	db 22, POISONPOWDER
-	db 30, RAZOR_LEAF
+	db 10, VINE_WHIP
+	db 15, POISONPOWDER
+	db 15, SLEEP_POWDER
+	db 22, TAKE_DOWN
+	db 29, RAZOR_LEAF
 	db 38, GROWTH
-	db 46, SLEEP_POWDER
-	db 54, SOLARBEAM
+	db 47, RECOVER
+	db 56, SOLARBEAM
 	db 0
 
 ExeggutorEvosMoves:
@@ -1749,12 +1751,14 @@ BulbasaurEvosMoves:
 	db 0
 ; Learnset
 	db 7, LEECH_SEED
-	db 13, VINE_WHIP
-	db 20, POISONPOWDER
-	db 27, RAZOR_LEAF
-	db 34, GROWTH
-	db 41, SLEEP_POWDER
-	db 48, SOLARBEAM
+	db 10, VINE_WHIP
+	db 15, POISONPOWDER
+	db 15, SLEEP_POWDER
+	db 20, TAKE_DOWN
+	db 25, RAZOR_LEAF
+	db 32, GROWTH
+	db 39, RECOVER
+	db 46, SOLARBEAM
 	db 0
 
 VenusaurEvosMoves:
@@ -1762,11 +1766,13 @@ VenusaurEvosMoves:
 	db 0
 ; Learnset
 	db 7, LEECH_SEED
-	db 13, VINE_WHIP
-	db 22, POISONPOWDER
-	db 30, RAZOR_LEAF
-	db 43, GROWTH
-	db 55, SLEEP_POWDER
+	db 10, VINE_WHIP
+	db 15, POISONPOWDER
+	db 15, SLEEP_POWDER
+	db 22, TAKE_DOWN
+	db 29, RAZOR_LEAF
+	db 41, GROWTH
+	db 53, RECOVER
 	db 65, SOLARBEAM
 	db 0
 
