@@ -1035,11 +1035,12 @@ MeowthEvosMoves:
 	db EV_LEVEL, 28, PERSIAN
 	db 0
 ; Learnset
-	db 12, BITE
-	db 17, PAY_DAY
-	db 24, SCREECH
-	db 33, FURY_ATTACK
-	db 44, SLASH
+	db 11, BITE
+	db 20, PAY_DAY
+	db 28, QUICK_ATTACK
+	db 35, SCREECH
+	db 41, FURY_ATTACK
+	db 46, SLASH
 	db 0
 
 KrabbyEvosMoves:
@@ -1721,11 +1722,12 @@ PersianEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 12, BITE
-	db 17, PAY_DAY
-	db 24, SCREECH
-	db 37, FURY_ATTACK
-	db 51, SLASH
+	db 11, BITE
+	db 20, PAY_DAY
+	db 29, QUICK_ATTACK
+	db 38, SCREECH
+	db 46, FURY_ATTACK
+	db 53, SLASH
 	db 0
 
 MarowakEvosMoves:
