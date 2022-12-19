@@ -50,7 +50,7 @@ ExclamationPointMoveSets:
 	db SCREECH
 	db HARDEN
 	db MINIMIZE
-	db WITHDRAW
+	; db WITHDRAW
 	db DEFENSE_CURL
 	db METRONOME
 	db LICK

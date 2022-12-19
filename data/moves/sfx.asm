@@ -110,7 +110,7 @@ MoveSoundTable:
 	db SFX_BATTLE_14,          $22, $10 ; MINIMIZE
 	db SFX_BATTLE_1B,          $f1, $ff ; SMOKESCREEN
 	db SFX_BATTLE_13,          $f1, $ff ; CONFUSE_RAY
-	db SFX_BATTLE_14,          $33, $30 ; WITHDRAW
+	; db SFX_BATTLE_14,          $33, $30 ; WITHDRAW
 	db SFX_BATTLE_32,          $40, $c0 ; DEFENSE_CURL
 	db SFX_BATTLE_0E,          $20, $20 ; BARRIER
 	db SFX_BATTLE_0E,          $f0, $10 ; LIGHT_SCREEN
@@ -176,6 +176,8 @@ MoveSoundTable:
 	db SFX_SUPER_EFFECTIVE,    $20, $c0 ; FLAME_CHARGE
 	db SFX_BATTLE_31,          $ff, $40 ; SCARY_FACE
 	db SFX_BATTLE_13,          $00, $e0 ; FEATHERDANCE
+	db SFX_BATTLE_31,          $ff, $40 ; ASTONISH
+	db SFX_BATTLE_13,          $f1, $ff ; SHADOW_BALL
 	db SFX_BATTLE_0B,          $00, $80 ; STRUGGLE
 	assert_table_length NUM_ATTACKS
 	db SFX_BATTLE_0B,          $00, $80

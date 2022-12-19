@@ -109,7 +109,7 @@ AttackAnimationPointers:
 	dw MinimizeAnim
 	dw SmokeScreenAnim
 	dw ConfuseRayAnim
-	dw WithdrawAnim
+	; dw WithdrawAnim
 	dw DefenseCurlAnim
 	dw BarrierAnim
 	dw LightScreenAnim
@@ -176,6 +176,8 @@ AttackAnimationPointers:
 	dw ScaryFaceAnim
 	dw FeatherDanceAnim
 	dw StruggleAnim
+	dw AstonishAnim
+	dw ShadowBallAnim
 	assert_table_length NUM_ATTACKS
 	dw ShowPicAnim
 	dw EnemyFlashAnim
@@ -459,6 +461,7 @@ PinMissileAnim:
 	battle_anim PIN_MISSILE, SUBANIM_0_STAR_TWICE, 0, 3
 	db -1 ; end
 
+AstonishAnim:
 ScaryFaceAnim:
 LeerAnim:
 	battle_anim LEECH_SEED, SE_DARK_SCREEN_PALETTE
@@ -854,19 +857,20 @@ SmokeScreenAnim:
 	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
 	db -1 ; end
 
+ShadowBallAnim:
 ConfuseRayAnim:
 	battle_anim CONFUSE_RAY, SE_DARK_SCREEN_PALETTE
 	battle_anim NO_MOVE, SUBANIM_1_STAR_BIG_TOSS, 1, 6
 	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
 	db -1 ; end
 
-WithdrawAnim:
-	battle_anim DEFENSE_CURL, SE_LIGHT_SCREEN_PALETTE
-	battle_anim NO_MOVE, SE_SLIDE_MON_DOWN
-	battle_anim NO_MOVE, SUBANIM_0_SHELL, 0, 6
-	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
-	battle_anim NO_MOVE, SE_SHOW_MON_PIC
-	db -1 ; end
+; WithdrawAnim:
+; 	battle_anim DEFENSE_CURL, SE_LIGHT_SCREEN_PALETTE
+; 	battle_anim NO_MOVE, SE_SLIDE_MON_DOWN
+; 	battle_anim NO_MOVE, SUBANIM_0_SHELL, 0, 6
+; 	battle_anim NO_MOVE, SE_RESET_SCREEN_PALETTE
+; 	battle_anim NO_MOVE, SE_SHOW_MON_PIC
+; 	db -1 ; end
 
 DefenseCurlAnim:
 	battle_anim DEFENSE_CURL, SE_LIGHT_SCREEN_PALETTE

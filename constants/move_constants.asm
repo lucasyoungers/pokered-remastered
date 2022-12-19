@@ -115,7 +115,7 @@
 	const MINIMIZE     ; 6b
 	const SMOKESCREEN  ; 6c
 	const CONFUSE_RAY  ; 6d
-	const WITHDRAW     ; 6e
+	; const WITHDRAW     ; 6e
 	const DEFENSE_CURL ; 6f
 	const BARRIER      ; 70
 	const LIGHT_SCREEN ; 71
@@ -181,6 +181,8 @@
 	const FLAME_CHARGE ; ad
 	const SCARY_FACE   ; ae
 	const FEATHERDANCE ; af
+	const ASTONISH     ; b0
+	const SHADOW_BALL  ; b1
 	const STRUGGLE     ; b0
 DEF NUM_ATTACKS EQU const_value - 1
 

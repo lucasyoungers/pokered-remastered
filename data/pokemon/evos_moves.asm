@@ -285,7 +285,7 @@ SlowbroEvosMoves:
 	db 22, HEADBUTT
 	db 27, GROWL
 	db 33, WATER_GUN
-	db 37, WITHDRAW
+	db 37, DEFENSE_CURL
 	db 44, AMNESIA
 	db 55, PSYCHIC_M
 	db 0
@@ -511,7 +511,7 @@ BlastoiseEvosMoves:
 	db 0
 ; Learnset
 	db 7, BUBBLE
-	db 10, WITHDRAW
+	db 10, DEFENSE_CURL
 	db 13, WATER_GUN
 	db 19, BITE
 	db 25, BUBBLEBEAM
@@ -2019,7 +2019,7 @@ SquirtleEvosMoves:
 	db 0
 ; Learnset
 	db 7, BUBBLE
-	db 10, WITHDRAW
+	db 10, DEFENSE_CURL
 	db 13, WATER_GUN
 	db 18, BITE
 	db 23, BUBBLEBEAM
@@ -2050,7 +2050,7 @@ WartortleEvosMoves:
 	db 0
 ; Learnset
 	db 7, BUBBLE
-	db 10, WITHDRAW
+	db 10, DEFENSE_CURL
 	db 13, WATER_GUN
 	db 19, BITE
 	db 25, BUBBLEBEAM

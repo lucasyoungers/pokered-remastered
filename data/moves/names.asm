@@ -109,7 +109,7 @@ MoveNames::
 	li "MINIMIZE"
 	li "SMOKESCREEN"
 	li "CONFUSE RAY"
-	li "WITHDRAW"
+	; li "WITHDRAW"
 	li "DEFENSE CURL"
 	li "BARRIER"
 	li "LIGHT SCREEN"
@@ -175,5 +175,7 @@ MoveNames::
 	li "FLAME CHARGE"
 	li "SCARY FACE"
 	li "FEATHERDANCE"
+	li "ASTONISH"
+	li "SHADOW_BALL"
 	li "STRUGGLE"
 	assert_list_length NUM_ATTACKS

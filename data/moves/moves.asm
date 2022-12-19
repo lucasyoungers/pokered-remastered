@@ -120,7 +120,7 @@ Moves:
 	move MINIMIZE,     EVASION_UP1_EFFECT,           0, NORMAL,       100, 20
 	move SMOKESCREEN,  ACCURACY_DOWN1_EFFECT,        0, NORMAL,       100, 20
 	move CONFUSE_RAY,  CONFUSION_EFFECT,             0, GHOST,        100, 10
-	move WITHDRAW,     DEFENSE_UP1_EFFECT,           0, WATER,        100, 40
+	; move WITHDRAW,     DEFENSE_UP1_EFFECT,           0, WATER,        100, 40
 	move DEFENSE_CURL, DEFENSE_UP1_EFFECT,           0, NORMAL,       100, 40
 	move BARRIER,      DEFENSE_UP2_EFFECT,           0, PSYCHIC_TYPE, 100, 30
 	move LIGHT_SCREEN, LIGHT_SCREEN_EFFECT,          0, PSYCHIC_TYPE, 100, 30
@@ -186,5 +186,7 @@ Moves:
 	move FLAME_CHARGE, SPEED_UP1_EFFECT,            50, FIRE,         100, 20
 	move SCARY_FACE,   SPEED_DOWN2_EFFECT,           0, NORMAL,       100, 10
 	move FEATHERDANCE, ATTACK_DOWN2_EFFECT,          0, FLYING,       100, 15
+	move ASTONISH,     FLINCH_SIDE_EFFECT2,         30, GHOST,        100, 15
+	move SHADOW_BALL,  SPECIAL_DOWN_SIDE_EFFECT,    80, GHOST,        100, 15
 	move STRUGGLE,     RECOIL_EFFECT,               50, BIRD,         100, 10
 	assert_table_length NUM_ATTACKS
