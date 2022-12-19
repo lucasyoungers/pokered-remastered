@@ -2141,12 +2141,15 @@ OddishEvosMoves:
 	db EV_LEVEL, 21, GLOOM
 	db 0
 ; Learnset
-	db 15, POISONPOWDER
-	db 17, STUN_SPORE
-	db 19, SLEEP_POWDER
-	db 24, ACID
-	db 33, PETAL_DANCE
-	db 46, SOLARBEAM
+	db 9, ACID
+	db 13, POISONPOWDER
+	db 14, STUN_SPORE
+	db 15, SLEEP_POWDER
+	db 19, MEGA_DRAIN
+	db 27, RECOVER
+	db 31, GIGA_DRAIN
+	db 35, TOXIC
+	db 43, PETAL_DANCE
 	db 0
 
 GloomEvosMoves:
@@ -2154,21 +2157,23 @@ GloomEvosMoves:
 	db EV_ITEM, LEAF_STONE, 1, VILEPLUME
 	db 0
 ; Learnset
-	db 15, POISONPOWDER
-	db 17, STUN_SPORE
-	db 19, SLEEP_POWDER
-	db 28, ACID
-	db 38, PETAL_DANCE
-	db 52, SOLARBEAM
+	db 9, ACID
+	db 13, POISONPOWDER
+	db 14, STUN_SPORE
+	db 15, SLEEP_POWDER
+	db 19, MEGA_DRAIN
+	db 29, RECOVER
+	db 34, GIGA_DRAIN
+	db 39, TOXIC
+	db 49, PETAL_DANCE
 	db 0
 
 VileplumeEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 15, POISONPOWDER
-	db 17, STUN_SPORE
-	db 19, SLEEP_POWDER
+	db 49, PETAL_DANCE
+	db 59, SOLARBEAM
 	db 0
 
 BellsproutEvosMoves:
