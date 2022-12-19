@@ -673,11 +673,14 @@ MachokeEvosMoves:
 	db EV_TRADE, 1, MACHAMP
 	db 0
 ; Learnset
-	db 20, LOW_KICK
-	db 25, LEER
-	db 36, FOCUS_ENERGY
-	db 44, SEISMIC_TOSS
-	db 52, SUBMISSION
+	db 8, FOCUS_ENERGY
+	db 15, KARATE_CHOP
+	db 19, SEISMIC_TOSS
+	db 25, SUBMISSION
+	db 34, JUMP_KICK
+	db 43, COUNTER
+	db 52, SCARY_FACE
+	db 61, HI_JUMP_KICK
 	db 0
 
 MrMimeEvosMoves:
@@ -1352,11 +1355,14 @@ MachopEvosMoves:
 	db EV_LEVEL, 28, MACHOKE
 	db 0
 ; Learnset
-	db 20, LOW_KICK
-	db 25, LEER
-	db 32, FOCUS_ENERGY
-	db 39, SEISMIC_TOSS
-	db 46, SUBMISSION
+	db 7, FOCUS_ENERGY
+	db 13, KARATE_CHOP
+	db 19, SEISMIC_TOSS
+	db 25, SUBMISSION
+	db 31, JUMP_KICK
+	db 37, COUNTER
+	db 43, SCARY_FACE
+	db 49, HI_JUMP_KICK
 	db 0
 
 ZubatEvosMoves:
@@ -1571,11 +1577,14 @@ MachampEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 20, LOW_KICK
-	db 25, LEER
-	db 36, FOCUS_ENERGY
-	db 44, SEISMIC_TOSS
-	db 52, SUBMISSION
+	db 8, FOCUS_ENERGY
+	db 15, KARATE_CHOP
+	db 19, SEISMIC_TOSS
+	db 25, SUBMISSION
+	db 34, JUMP_KICK
+	db 45, COUNTER
+	db 56, SCARY_FACE
+	db 67, HI_JUMP_KICK
 	db 0
 
 MissingNo7FEvosMoves:
