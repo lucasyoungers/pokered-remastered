@@ -332,7 +332,7 @@ LickitungEvosMoves:
 	db 7, STOMP
 	db 15, DISABLE
 	db 23, DEFENSE_CURL
-	db 31, SLAM
+	db 31, BODY_SLAM
 	db 39, SCREECH
 	db 0
 
@@ -577,7 +577,7 @@ TangelaEvosMoves:
 	db 32, POISONPOWDER
 	db 36, STUN_SPORE
 	db 39, SLEEP_POWDER
-	db 45, SLAM
+	db 45, BODY_SLAM
 	db 49, GROWTH
 	db 0
 
@@ -1002,7 +1002,7 @@ DragoniteEvosMoves:
 ; Learnset
 	db 10, THUNDER_WAVE
 	db 20, AGILITY
-	db 35, SLAM
+	db 35, BODY_SLAM
 	db 45, DRAGON_RAGE
 	db 60, HYPER_BEAM
 	db 0
@@ -1206,7 +1206,7 @@ DratiniEvosMoves:
 ; Learnset
 	db 10, THUNDER_WAVE
 	db 20, AGILITY
-	db 30, SLAM
+	db 30, BODY_SLAM
 	db 40, DRAGON_RAGE
 	db 50, HYPER_BEAM
 	db 0
@@ -1218,7 +1218,7 @@ DragonairEvosMoves:
 ; Learnset
 	db 10, THUNDER_WAVE
 	db 20, AGILITY
-	db 35, SLAM
+	db 35, BODY_SLAM
 	db 45, DRAGON_RAGE
 	db 55, HYPER_BEAM
 	db 0

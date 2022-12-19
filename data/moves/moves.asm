@@ -31,7 +31,7 @@ Moves:
 	move WHIRLWIND,    SWITCH_AND_TELEPORT_EFFECT,   0, NORMAL,        85, 20
 	move FLY,          FLY_EFFECT,                  90, FLYING,        95, 15
 	move BIND,         TRAPPING_EFFECT,             15, NORMAL,        75, 20
-	move SLAM,         NO_ADDITIONAL_EFFECT,        80, NORMAL,        75, 20
+	; move SLAM,         NO_ADDITIONAL_EFFECT,        80, NORMAL,        75, 20
 	move VINE_WHIP,    NO_ADDITIONAL_EFFECT,        45, GRASS,        100, 10
 	move STOMP,        FLINCH_SIDE_EFFECT2,         65, NORMAL,       100, 20
 	move DOUBLE_KICK,  ATTACK_TWICE_EFFECT,         30, FIGHTING,     100, 30
@@ -190,5 +190,6 @@ Moves:
 	move SHADOW_BALL,  SPECIAL_DOWN_SIDE_EFFECT,    80, GHOST,        100, 15
 	move BULLDOZE,     SPEED_DOWN1_EFFECT,          60, GROUND,       100, 20
 	move DRAGONBREATH, PARALYZE_SIDE_EFFECT2,       60, DRAGON,       100, 20
+	move MACH_PUNCH,   NO_ADDITIONAL_EFFECT,        40, FIGHTING,     100, 30
 	move STRUGGLE,     RECOIL_EFFECT,               50, BIRD,         100, 10
 	assert_table_length NUM_ATTACKS

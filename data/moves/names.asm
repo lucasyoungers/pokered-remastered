@@ -20,7 +20,7 @@ MoveNames::
 	li "WHIRLWIND"
 	li "FLY"
 	li "BIND"
-	li "SLAM"
+	; li "SLAM"
 	li "VINE WHIP"
 	li "STOMP"
 	li "DOUBLE KICK"
@@ -179,5 +179,6 @@ MoveNames::
 	li "SHADOW BALL"
 	li "BULLDOZE"
 	li "DRAGONBREATH"
+	li "MACH PUNCH"
 	li "STRUGGLE"
 	assert_list_length NUM_ATTACKS

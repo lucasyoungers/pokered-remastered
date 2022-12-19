@@ -26,7 +26,7 @@
 	const WHIRLWIND    ; 12
 	const FLY          ; 13
 	const BIND         ; 14
-	const SLAM         ; 15
+	; const SLAM         ; 15
 	const VINE_WHIP    ; 16
 	const STOMP        ; 17
 	const DOUBLE_KICK  ; 18
@@ -185,7 +185,8 @@
 	const SHADOW_BALL  ; b1
 	const BULLDOZE     ; b2
 	const DRAGONBREATH ; b3
-	const STRUGGLE     ; b4
+	const MACH_PUNCH   ; b4
+	const STRUGGLE     ; b5
 DEF NUM_ATTACKS EQU const_value - 1
 
 	; Moves do double duty as animation identifiers.
