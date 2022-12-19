@@ -173,6 +173,7 @@ AttackAnimationPointers:
 	dw BugBiteAnim
 	dw MegahornAnim
 	dw FlameChargeAnim
+	dw ScaryFaceAnim
 	dw StruggleAnim
 	assert_table_length NUM_ATTACKS
 	dw ShowPicAnim
@@ -456,6 +457,7 @@ PinMissileAnim:
 	battle_anim PIN_MISSILE, SUBANIM_0_STAR_TWICE, 0, 3
 	db -1 ; end
 
+ScaryFaceAnim:
 LeerAnim:
 	battle_anim LEECH_SEED, SE_DARK_SCREEN_PALETTE
 	battle_anim LEER, SE_DARK_SCREEN_FLASH

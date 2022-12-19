@@ -184,5 +184,6 @@ Moves:
 	move BUG_BITE,     NO_ADDITIONAL_EFFECT,        60, BUG,          100, 20
 	move MEGAHORN,     NO_ADDITIONAL_EFFECT,       120, BUG,           85, 10
 	move FLAME_CHARGE, SPEED_UP1_EFFECT,            50, FIRE,         100, 20
+	move SCARY_FACE,   SPEED_DOWN2_EFFECT,           0, NORMAL,       100, 10
 	move STRUGGLE,     RECOIL_EFFECT,               50, BIRD,         100, 10
 	assert_table_length NUM_ATTACKS

@@ -174,6 +174,7 @@ MoveSoundTable:
 	db SFX_BATTLE_1E,          $00, $80 ; BUG_BITE
 	db SFX_HORN_DRILL,         $00, $a0 ; MEGAHORN
 	db SFX_SUPER_EFFECTIVE,    $20, $c0 ; FLAME_CHARGE
+	db SFX_BATTLE_31,          $ff, $40 ; SCARY_FACE
 	db SFX_BATTLE_0B,          $00, $80 ; STRUGGLE
 	assert_table_length NUM_ATTACKS
 	db SFX_BATTLE_0B,          $00, $80

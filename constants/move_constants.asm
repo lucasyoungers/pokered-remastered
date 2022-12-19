@@ -179,7 +179,8 @@
 	const BUG_BITE     ; ab
 	const MEGAHORN     ; ac
 	const FLAME_CHARGE ; ad
-	const STRUGGLE     ; ae
+	const SCARY_FACE   ; ae
+	const STRUGGLE     ; af
 DEF NUM_ATTACKS EQU const_value - 1
 
 	; Moves do double duty as animation identifiers.

@@ -173,5 +173,6 @@ MoveNames::
 	li "BUG BITE"
 	li "MEGAHORN"
 	li "FLAME CHARGE"
+	li "SCARY FACE"
 	li "STRUGGLE"
 	assert_list_length NUM_ATTACKS
