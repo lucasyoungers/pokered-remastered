@@ -1,6 +1,6 @@
 	db DEX_LICKITUNG ; pokedex id
 
-	db  90,  55,  75,  30,  60
+	db 110,  85,  95,  50,  80
 	;   hp  atk  def  spd  spc
 
 	db NORMAL, NORMAL ; type
