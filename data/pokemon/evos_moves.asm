@@ -670,7 +670,7 @@ ChanseyEvosMoves:
 
 MachokeEvosMoves:
 ; Evolutions
-	db EV_TRADE, 1, MACHAMP
+	db EV_LEVEL, 40, MACHAMP
 	db 0
 ; Learnset
 	db 8, FOCUS_ENERGY
