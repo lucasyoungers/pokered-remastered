@@ -836,12 +836,14 @@ MagnetonEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 21, SONICBOOM
-	db 25, THUNDERSHOCK
-	db 29, SUPERSONIC
-	db 38, THUNDER_WAVE
-	db 46, SWIFT
-	db 54, SCREECH
+	db 6, THUNDERSHOCK
+	db 11, SUPERSONIC
+	db 16, SONICBOOM
+	db 21, THUNDER_WAVE
+	db 27, LIGHT_SCREEN
+	db 35, TRI_ATTACK
+	db 43, SCREECH
+	db 53, THUNDER
 	db 0
 
 KoffingEvosMoves:
@@ -2084,12 +2086,14 @@ MagnemiteEvosMoves:
 	db EV_LEVEL, 30, MAGNETON
 	db 0
 ; Learnset
-	db 21, SONICBOOM
-	db 25, THUNDERSHOCK
-	db 29, SUPERSONIC
-	db 35, THUNDER_WAVE
-	db 41, SWIFT
-	db 47, SCREECH
+	db 6, THUNDERSHOCK
+	db 11, SUPERSONIC
+	db 16, SONICBOOM
+	db 21, THUNDER_WAVE
+	db 27, LIGHT_SCREEN
+	db 33, SWIFT
+	db 39, SCREECH
+	db 45, THUNDER
 	db 0
 
 MissingNoAEEvosMoves:
