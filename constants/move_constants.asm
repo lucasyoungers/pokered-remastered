@@ -177,7 +177,8 @@
 	const SLUDGE_WAVE  ; a9
 	const GUNK_SHOT    ; aa
 	const BUG_BITE     ; ab
-	const STRUGGLE     ; ac
+	const MEGAHORN     ; ac
+	const STRUGGLE     ; ad
 DEF NUM_ATTACKS EQU const_value - 1
 
 	; Moves do double duty as animation identifiers.

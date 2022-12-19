@@ -171,6 +171,7 @@ AttackAnimationPointers:
 	dw SludgeWaveAnim
 	dw GunkShotAnim
 	dw BugBiteAnim
+	dw MegahornAnim
 	dw StruggleAnim
 	assert_table_length NUM_ATTACKS
 	dw ShowPicAnim
@@ -374,6 +375,7 @@ HeadButtAnim:
 	battle_anim HEADBUTT, SUBANIM_1_STAR_BIG, 1, 6
 	db -1 ; end
 
+MegahornAnim:
 HornAttackAnim:
 	battle_anim HORN_ATTACK, SUBANIM_0_HORN_JAB_TWICE, 0, 6
 	battle_anim NO_MOVE, SUBANIM_1_STAR_BIG, 1, 6

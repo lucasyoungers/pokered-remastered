@@ -171,5 +171,6 @@ MoveNames::
 	li "SLUDGE WAVE"
 	li "GUNK SHOT"
 	li "BUG BITE"
+	li "MEGAHORN"
 	li "STRUGGLE"
 	assert_list_length NUM_ATTACKS

@@ -172,6 +172,7 @@ MoveSoundTable:
 	db SFX_BATTLE_2A,          $20, $20 ; SLUDGE_WAVE
 	db SFX_BATTLE_2A,          $20, $20 ; GUNK_SHOT
 	db SFX_BATTLE_1E,          $00, $80 ; BUG_BITE
+	db SFX_HORN_DRILL,         $00, $a0 ; MEGAHORN
 	db SFX_BATTLE_0B,          $00, $80 ; STRUGGLE
 	assert_table_length NUM_ATTACKS
 	db SFX_BATTLE_0B,          $00, $80
