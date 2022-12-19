@@ -740,10 +740,12 @@ HitmonleeEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 33, ROLLING_KICK
-	db 38, JUMP_KICK
-	db 43, FOCUS_ENERGY
-	db 48, HI_JUMP_KICK
+	db 6, MEDITATE
+	db 11, ROLLING_KICK
+	db 16, JUMP_KICK
+	db 21, FOCUS_ENERGY
+	db 26, HI_JUMP_KICK
+	db 31, QUICK_ATTACK
 	db 53, MEGA_KICK
 	db 0
 
@@ -751,11 +753,16 @@ HitmonchanEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 33, FIRE_PUNCH
-	db 38, ICE_PUNCH
-	db 43, THUNDERPUNCH
-	db 48, MEGA_PUNCH
-	db 53, COUNTER
+	db 7, AGILITY
+	db 13, ASTONISH
+	db 20, KARATE_CHOP
+	db 26, FIRE_PUNCH
+	db 26, ICE_PUNCH
+	db 26, THUNDERPUNCH
+	db 32, SEISMIC_TOSS
+	db 38, MEGA_PUNCH
+	db 44, MEDITATE
+	db 50, COUNTER
 	db 0
 
 ArbokEvosMoves:
