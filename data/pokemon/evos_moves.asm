@@ -725,11 +725,14 @@ ParasectEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 13, STUN_SPORE
-	db 20, LEECH_LIFE
-	db 30, SPORE
-	db 39, SLASH
-	db 48, GROWTH
+	db 7, STUN_SPORE
+	db 13, POISONPOWDER
+	db 19, MEGA_DRAIN
+	db 27, SPORE
+	db 35, SLASH
+	db 43, GROWTH
+	db 51, GIGA_DRAIN
+	db 59, LEECH_LIFE
 	db 0
 
 PsyduckEvosMoves:
