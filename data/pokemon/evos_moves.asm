@@ -424,6 +424,7 @@ ArcanineEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
+	db 49, THRASH
 	db 0
 
 MewEvosMoves:
@@ -566,11 +567,14 @@ GrowlitheEvosMoves:
 	db EV_ITEM, FIRE_STONE, 1, ARCANINE
 	db 0
 ; Learnset
-	db 18, EMBER
-	db 23, LEER
-	db 30, TAKE_DOWN
-	db 39, AGILITY
-	db 50, FLAMETHROWER
+	db 7, EMBER
+	db 13, LEER
+	db 19, MEDITATE
+	db 25, TAKE_DOWN
+	db 31, FLAME_CHARGE
+	db 37, BODY_SLAM
+	db 43, AGILITY
+	db 49, FLAMETHROWER
 	db 0
 
 OnixEvosMoves:
