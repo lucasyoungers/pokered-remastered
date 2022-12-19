@@ -985,12 +985,13 @@ PoliwagEvosMoves:
 	db EV_LEVEL, 25, POLIWHIRL
 	db 0
 ; Learnset
-	db 16, HYPNOSIS
-	db 19, WATER_GUN
-	db 25, DOUBLESLAP
+	db 7, HYPNOSIS
+	db 13, WATER_GUN
+	db 19, DOUBLESLAP
+	db 25, MEDITATE
 	db 31, BODY_SLAM
-	db 38, AMNESIA
-	db 45, HYDRO_PUMP
+	db 37, AMNESIA
+	db 43, HYDRO_PUMP
 	db 0
 
 JynxEvosMoves:
@@ -1404,20 +1405,21 @@ PoliwhirlEvosMoves:
 	db EV_ITEM, WATER_STONE, 1, POLIWRATH
 	db 0
 ; Learnset
-	db 16, HYPNOSIS
-	db 19, WATER_GUN
-	db 26, DOUBLESLAP
-	db 33, BODY_SLAM
-	db 41, AMNESIA
-	db 49, HYDRO_PUMP
+	db 7, HYPNOSIS
+	db 13, WATER_GUN
+	db 19, DOUBLESLAP
+	db 27, MEDITATE
+	db 35, BODY_SLAM
+	db 43, AMNESIA
+	db 51, HYDRO_PUMP
 	db 0
 
 PoliwrathEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 16, HYPNOSIS
-	db 19, WATER_GUN
+	db 35, SUBMISSION
+	db 51, BODY_SLAM
 	db 0
 
 WeedleEvosMoves:
