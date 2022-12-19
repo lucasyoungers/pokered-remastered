@@ -1,6 +1,6 @@
 	db DEX_KINGLER ; pokedex id
 
-	db  55, 130, 115,  75,  50
+	db  80, 130, 115,  60,  75
 	;   hp  atk  def  spd  spc
 
 	db WATER, WATER ; type
