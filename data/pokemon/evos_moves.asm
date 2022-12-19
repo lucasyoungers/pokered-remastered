@@ -519,6 +519,7 @@ BlastoiseEvosMoves:
 	db 42, HAZE
 	db 55, SKULL_BASH
 	db 68, HYDRO_PUMP
+	db 100, HYDRO_CANNON
 	db 0
 
 PinsirEvosMoves:
@@ -1777,6 +1778,7 @@ VenusaurEvosMoves:
 	db 41, GROWTH
 	db 53, RECOVER
 	db 65, SOLARBEAM
+	db 100, FRENZY_PLANT
 	db 0
 
 TentacruelEvosMoves:
@@ -2059,6 +2061,7 @@ CharizardEvosMoves:
 	db 44, SLASH
 	db 54, DRAGON_RAGE
 	db 64, FIRE_SPIN
+	db 100, BLAST_BURN
 	db 0
 
 MissingNoB5EvosMoves:
