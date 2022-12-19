@@ -710,11 +710,14 @@ ArbokEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 10, POISON_STING
-	db 17, BITE
-	db 27, GLARE
-	db 36, SCREECH
-	db 47, ACID
+	db 8, POISON_STING
+	db 13, BITE
+	db 20, GLARE
+	db 28, SCREECH
+	db 38, ACID
+	db 46, ACID_ARMOR
+	db 56, HAZE
+	db 63, GUNK_SHOT
 	db 0
 
 ParasectEvosMoves:
@@ -1337,11 +1340,14 @@ EkansEvosMoves:
 	db EV_LEVEL, 22, ARBOK
 	db 0
 ; Learnset
-	db 10, POISON_STING
-	db 17, BITE
-	db 24, GLARE
-	db 31, SCREECH
-	db 38, ACID
+	db 8, POISON_STING
+	db 13, BITE
+	db 20, GLARE
+	db 25, SCREECH
+	db 32, ACID
+	db 37, ACID_ARMOR
+	db 41, HAZE
+	db 49, GUNK_SHOT
 	db 0
 
 ParasEvosMoves:
