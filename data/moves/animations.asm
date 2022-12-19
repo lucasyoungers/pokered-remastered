@@ -3,7 +3,7 @@ AttackAnimationPointers:
 	dw PoundAnim
 	dw KarateChopAnim
 	dw DoubleSlapAnim
-	dw CometPunchAnim
+	; dw CometPunchAnim
 	dw MegaPunchAnim
 	dw PayDayAnim
 	dw FirePunchAnim
@@ -259,10 +259,10 @@ DoubleSlapAnim:
 	battle_anim DOUBLESLAP, SUBANIM_0_STAR_TWICE, 0, 5
 	db -1 ; end
 
-CometPunchAnim:
-	battle_anim COMET_PUNCH, SUBANIM_0_STAR_THRICE, 0, 4
-	battle_anim COMET_PUNCH, SUBANIM_0_STAR_THRICE, 0, 4
-	db -1 ; end
+; CometPunchAnim:
+; 	battle_anim COMET_PUNCH, SUBANIM_0_STAR_THRICE, 0, 4
+; 	battle_anim COMET_PUNCH, SUBANIM_0_STAR_THRICE, 0, 4
+; 	db -1 ; end
 
 MegaPunchAnim:
 	battle_anim MEGA_PUNCH, SUBANIM_1_STAR_BIG_MOVING, 1, 6

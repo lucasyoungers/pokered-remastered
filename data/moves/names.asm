@@ -3,7 +3,7 @@ MoveNames::
 	li "POUND"
 	li "KARATE CHOP"
 	li "DOUBLESLAP"
-	li "COMET PUNCH"
+	; li "COMET PUNCH"
 	li "MEGA PUNCH"
 	li "PAY DAY"
 	li "FIRE PUNCH"
@@ -176,6 +176,6 @@ MoveNames::
 	li "SCARY FACE"
 	li "FEATHERDANCE"
 	li "ASTONISH"
-	li "SHADOW_BALL"
+	li "SHADOW BALL"
 	li "STRUGGLE"
 	assert_list_length NUM_ATTACKS

@@ -9,7 +9,7 @@
 	const POUND        ; 01
 	const KARATE_CHOP  ; 02
 	const DOUBLESLAP   ; 03
-	const COMET_PUNCH  ; 04
+	; const COMET_PUNCH  ; 04
 	const MEGA_PUNCH   ; 05
 	const PAY_DAY      ; 06
 	const FIRE_PUNCH   ; 07
@@ -183,7 +183,7 @@
 	const FEATHERDANCE ; af
 	const ASTONISH     ; b0
 	const SHADOW_BALL  ; b1
-	const STRUGGLE     ; b0
+	const STRUGGLE     ; b2
 DEF NUM_ATTACKS EQU const_value - 1
 
 	; Moves do double duty as animation identifiers.

@@ -4,7 +4,7 @@ MoveSoundTable:
 	db SFX_POUND,              $00, $80 ; POUND
 	db SFX_BATTLE_0C,          $10, $80 ; KARATE_CHOP
 	db SFX_DOUBLESLAP,         $00, $80 ; DOUBLESLAP
-	db SFX_BATTLE_0B,          $01, $80 ; COMET_PUNCH
+	; db SFX_BATTLE_0B,          $01, $80 ; COMET_PUNCH
 	db SFX_BATTLE_0D,          $00, $40 ; MEGA_PUNCH
 	db SFX_SILPH_SCOPE,        $00, $ff ; PAY_DAY
 	db SFX_BATTLE_0D,          $10, $60 ; FIRE_PUNCH
