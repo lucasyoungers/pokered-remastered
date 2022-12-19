@@ -349,12 +349,14 @@ GrimerEvosMoves:
 	db EV_LEVEL, 38, MUK
 	db 0
 ; Learnset
-	db 30, POISON_GAS
-	db 33, MINIMIZE
-	db 37, SLUDGE
-	db 42, HARDEN
-	db 48, SCREECH
-	db 55, ACID_ARMOR
+	db 4, HARDEN
+	db 8, DISABLE
+	db 13, SLUDGE
+	db 19, MINIMIZE
+	db 26, SCREECH
+	db 34, ACID_ARMOR
+	db 43, SLUDGE_WAVE
+	db 53, GUNK_SHOT
 	db 0
 
 GengarEvosMoves:
@@ -1550,7 +1552,7 @@ DewgongEvosMoves:
 	db 17, WATER_GUN
 	db 21, AURORA_BEAM
 	db 29, REST
-	db 34, SHEER_COLD
+	db 34, HORN_DRILL
 	db 42, TAKE_DOWN
 	db 51, ICE_BEAM
 	db 64, HAZE
@@ -1704,12 +1706,14 @@ MukEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 30, POISON_GAS
-	db 33, MINIMIZE
-	db 37, SLUDGE
-	db 45, HARDEN
-	db 53, SCREECH
-	db 60, ACID_ARMOR
+	db 4, HARDEN
+	db 8, DISABLE
+	db 13, SLUDGE
+	db 19, MINIMIZE
+	db 26, SCREECH
+	db 34, ACID_ARMOR
+	db 47, SLUDGE_WAVE
+	db 61, GUNK_SHOT
 	db 0
 
 MissingNo8AEvosMoves:
