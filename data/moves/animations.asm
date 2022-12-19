@@ -153,7 +153,7 @@ AttackAnimationPointers:
 	dw AcidArmorAnim
 	dw CrabHammerAnim
 	dw ExplosionAnim
-	dw FurySwipesAnim
+	; dw FurySwipesAnim
 	dw BonemerangAnim
 	dw RestAnim
 	dw RockSlideAnim
@@ -1110,9 +1110,9 @@ ExplosionAnim:
 	battle_anim EXPLOSION, SUBANIM_1_SELFDESTRUCT, 1, 3
 	db -1 ; end
 
-FurySwipesAnim:
-	battle_anim FURY_SWIPES, SUBANIM_0_SCRATCHES, 0, 4
-	db -1 ; end
+; FurySwipesAnim:
+; 	battle_anim FURY_SWIPES, SUBANIM_0_SCRATCHES, 0, 4
+; 	db -1 ; end
 
 BonemerangAnim:
 	battle_anim BONEMERANG, SUBANIM_0_STAR_THRICE, 0, 6

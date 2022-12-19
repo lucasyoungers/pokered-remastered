@@ -62,7 +62,7 @@ ExclamationPointMoveSets:
 	db FLASH
 	db SPLASH
 	db ACID_ARMOR
-	db FURY_SWIPES
+	; db FURY_SWIPES
 	db REST
 	db SHARPEN
 	db SLASH

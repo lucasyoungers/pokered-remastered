@@ -367,7 +367,7 @@ NidoranFEvosMoves:
 	db 14, POISON_STING
 	db 21, TAIL_WHIP
 	db 29, BITE
-	db 36, FURY_SWIPES
+	db 36, FURY_ATTACK
 	db 43, DOUBLE_KICK
 	db 0
 
@@ -733,7 +733,7 @@ PsyduckEvosMoves:
 	db 28, TAIL_WHIP
 	db 31, DISABLE
 	db 36, CONFUSION
-	db 43, FURY_SWIPES
+	db 43, FURY_ATTACK
 	db 52, HYDRO_PUMP
 	db 0
 
@@ -833,7 +833,7 @@ MankeyEvosMoves:
 	db 0
 ; Learnset
 	db 15, KARATE_CHOP
-	db 21, FURY_SWIPES
+	db 21, FURY_ATTACK
 	db 27, FOCUS_ENERGY
 	db 33, SEISMIC_TOSS
 	db 39, THRASH
@@ -1024,7 +1024,7 @@ MeowthEvosMoves:
 	db 12, BITE
 	db 17, PAY_DAY
 	db 24, SCREECH
-	db 33, FURY_SWIPES
+	db 33, FURY_ATTACK
 	db 44, SLASH
 	db 0
 
@@ -1195,7 +1195,7 @@ SandshrewEvosMoves:
 	db 17, SLASH
 	db 24, POISON_STING
 	db 31, SWIFT
-	db 38, FURY_SWIPES
+	db 38, FURY_ATTACK
 	db 0
 
 SandslashEvosMoves:
@@ -1206,7 +1206,7 @@ SandslashEvosMoves:
 	db 17, SLASH
 	db 27, POISON_STING
 	db 36, SWIFT
-	db 47, FURY_SWIPES
+	db 47, FURY_ATTACK
 	db 0
 
 OmanyteEvosMoves:
@@ -1425,7 +1425,7 @@ PrimeapeEvosMoves:
 	db 0
 ; Learnset
 	db 15, KARATE_CHOP
-	db 21, FURY_SWIPES
+	db 21, FURY_ATTACK
 	db 27, FOCUS_ENERGY
 	db 37, SEISMIC_TOSS
 	db 46, THRASH
@@ -1532,7 +1532,7 @@ GolduckEvosMoves:
 	db 28, TAIL_WHIP
 	db 31, DISABLE
 	db 39, CONFUSION
-	db 48, FURY_SWIPES
+	db 48, FURY_ATTACK
 	db 59, HYDRO_PUMP
 	db 0
 
@@ -1677,7 +1677,7 @@ PersianEvosMoves:
 	db 12, BITE
 	db 17, PAY_DAY
 	db 24, SCREECH
-	db 37, FURY_SWIPES
+	db 37, FURY_ATTACK
 	db 51, SLASH
 	db 0
 
@@ -1930,7 +1930,7 @@ NidorinaEvosMoves:
 	db 14, POISON_STING
 	db 23, TAIL_WHIP
 	db 32, BITE
-	db 41, FURY_SWIPES
+	db 41, FURY_ATTACK
 	db 50, DOUBLE_KICK
 	db 0
 
