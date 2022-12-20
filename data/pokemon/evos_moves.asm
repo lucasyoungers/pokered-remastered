@@ -2242,10 +2242,13 @@ AerodactylEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 33, SUPERSONIC
-	db 38, BITE
-	db 45, TAKE_DOWN
-	db 54, HYPER_BEAM
+	db 8, AGILITY
+	db 15, BITE
+	db 22, SUPERSONIC
+	db 29, ROCK_SLIDE
+	db 36, SCARY_FACE
+	db 43, TAKE_DOWN
+	db 50, HYPER_BEAM
 	db 0
 
 MissingNoACEvosMoves:
