@@ -2211,10 +2211,15 @@ PorygonEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 23, PSYBEAM
-	db 28, RECOVER
-	db 35, AGILITY
-	db 42, TRI_ATTACK
+	db 10, PSYBEAM
+	db 15, AGILITY
+	db 20, RECOVER
+	db 25, BUBBLEBEAM
+	db 30, AURORA_BEAM
+	db 35, TRI_ATTACK
+	db 40, THUNDER
+	db 45, SOLARBEAM
+	db 50, HYPER_BEAM
 	db 0
 
 AerodactylEvosMoves:
