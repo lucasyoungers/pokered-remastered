@@ -19,7 +19,9 @@ SpecialTrainerMoves:
 	db 0
 
 	db MISTY, 1
-	db 2, 4, BUBBLEBEAM
+	db 1, 4, BUBBLEBEAM ; horsea
+	db 2, 1, BUBBLEBEAM ; staryu
+	db 3, 1, BUBBLEBEAM ; starmie
 	db 0
 
 	db LT_SURGE, 1

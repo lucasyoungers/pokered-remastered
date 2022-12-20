@@ -642,7 +642,7 @@ BrockData:
 	db $FF, 12, GEODUDE, 14, ONIX, 0
 
 MistyData:
-	db $FF, 18, STARYU, 21, STARMIE, 0
+	db $FF, 18, HORSEA, 20, STARYU, 21, STARMIE, 0
 
 LtSurgeData:
 	db $FF, 21, VOLTORB, 18, PIKACHU, 24, RAICHU, 0
