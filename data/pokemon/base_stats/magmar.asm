@@ -1,6 +1,6 @@
 	db DEX_MAGMAR ; pokedex id
 
-	db  65,  95,  57,  93,  85
+	db  65,  95,  57,  93, 100
 	;   hp  atk  def  spd  spc
 
 	db FIRE, FIRE ; type
@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/magmar.pic", 0, 1 ; sprite dimensions
 	dw MagmarPicFront, MagmarPicBack
 
-	db EMBER, NO_MOVE, NO_MOVE, NO_MOVE ; level 1 learnset
+	db EMBER, LEER, NO_MOVE, NO_MOVE ; level 1 learnset
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
