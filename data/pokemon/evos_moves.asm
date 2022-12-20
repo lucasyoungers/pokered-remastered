@@ -222,7 +222,7 @@ KangaskhanEvosMoves:
 	db 19, QUICK_ATTACK
 	db 25, MEGA_PUNCH
 	db 31, RAGE
-	db 37, MACH_PUNCH
+	db 37, TAKE_DOWN
 	db 43, DIZZY_PUNCH
 	db 49, COUNTER
 	db 0
@@ -783,9 +783,8 @@ HitmonchanEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 7, AGILITY
-	db 13, ASTONISH
-	db 20, KARATE_CHOP
+	db 13, AGILITY
+	db 20, ASTONISH
 	db 26, FIRE_PUNCH
 	db 26, ICE_PUNCH
 	db 26, THUNDERPUNCH
