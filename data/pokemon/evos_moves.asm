@@ -488,9 +488,11 @@ GyaradosEvosMoves:
 ; Learnset
 	db 20, BITE
 	db 25, DRAGON_RAGE
-	db 32, LEER
-	db 41, HYDRO_PUMP
-	db 52, HYPER_BEAM
+	db 30, LEER
+	db 35, DRAGONBREATH
+	db 40, HYDRO_PUMP
+	db 45, OUTRAGE
+	db 50, HYPER_BEAM
 	db 0
 
 ShellderEvosMoves:
