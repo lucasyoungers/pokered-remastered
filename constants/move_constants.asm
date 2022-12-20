@@ -185,6 +185,7 @@
 	const SHADOW_BALL  ; b1
 	const BULLDOZE     ; b2
 	const DRAGONBREATH ; b3
+	const OUTRAGE      ; b4
 	const STRUGGLE     ; b5
 DEF NUM_ATTACKS EQU const_value - 1
 

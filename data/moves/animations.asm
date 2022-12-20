@@ -179,6 +179,7 @@ AttackAnimationPointers:
 	dw ShadowBallAnim
 	dw BulldozeAnim
 	dw DragonBreathAnim
+	dw OutrageAnim
 	dw StruggleAnim
 	assert_table_length NUM_ATTACKS
 	dw ShowPicAnim
@@ -426,6 +427,7 @@ TakeDownAnim:
 	battle_anim NO_MOVE, SE_RESET_MON_POSITION
 	db -1 ; end
 
+OutrageAnim:
 ThrashAnim:
 	battle_anim THRASH, SUBANIM_1_STAR_BIG_MOVING, 1, 6
 	db -1 ; end

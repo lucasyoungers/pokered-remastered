@@ -179,5 +179,6 @@ MoveNames::
 	li "SHADOW BALL"
 	li "BULLDOZE"
 	li "DRAGONBREATH"
+	li "OUTRAGE"
 	li "STRUGGLE"
 	assert_list_length NUM_ATTACKS
