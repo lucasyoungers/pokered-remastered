@@ -1791,6 +1791,7 @@ MagikarpEvosMoves:
 	db 0
 ; Learnset
 	db 15, TACKLE
+	db 99, HYDRO_CANNON
 	db 0
 
 MissingNo86EvosMoves:
