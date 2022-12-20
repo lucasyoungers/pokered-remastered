@@ -905,11 +905,12 @@ ElectabuzzEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 34, THUNDERSHOCK
-	db 37, SCREECH
-	db 42, THUNDERPUNCH
-	db 49, LIGHT_SCREEN
-	db 54, THUNDER
+	db 9, THUNDERPUNCH
+	db 17, LIGHT_SCREEN
+	db 25, SWIFT
+	db 36, SCREECH
+	db 47, THUNDERBOLT
+	db 58, THUNDER
 	db 0
 
 MagnetonEvosMoves:
