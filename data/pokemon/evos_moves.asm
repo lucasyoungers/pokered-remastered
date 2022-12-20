@@ -762,11 +762,17 @@ MrMimeEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 15, CONFUSION
-	db 23, LIGHT_SCREEN
-	db 31, DOUBLESLAP
-	db 39, MEDITATE
-	db 47, SUBSTITUTE
+	db 5, CONFUSION
+	db 9, SUBSTITUTE
+	db 13, MEDITATE
+	db 17, DOUBLESLAP
+	db 21, REFLECT
+	db 25, LIGHT_SCREEN
+	db 29, PSYBEAM
+	db 33, HYPNOSIS
+	db 37, DREAM_EATER
+	db 41, AMNESIA
+	db 45, PSYCHIC_M
 	db 0
 
 HitmonleeEvosMoves:
