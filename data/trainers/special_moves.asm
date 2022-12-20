@@ -46,16 +46,13 @@ SpecialTrainerMoves:
 	db 0
 
 	db KOGA, 1
-	db 1, 1, TOXIC
-	db 1, 2, TACKLE
-	db 2, 1, TOXIC
-	db 2, 3, SUPERSONIC
-	db 3, 1, TOXIC
-	db 3, 2, DOUBLE_EDGE
-	db 4, 1, LEECH_LIFE
-	db 4, 2, DOUBLE_TEAM
-	db 4, 3, PSYCHIC_M
-	db 4, 4, TOXIC
+	db 1, 3, TOXIC ; muk
+	db 3, 1, TOXIC ; tentacruel
+	db 4, 2, TOXIC ; arbok
+	; weezing
+	db 5, 1, TOXIC
+	db 5, 3, FIRE_BLAST
+	db 5, 4, EXPLOSION
 	db 0
 
 	db BLAINE, 1
