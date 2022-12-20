@@ -64,10 +64,17 @@ SpecialTrainerMoves:
 	db 0
 
 	db SABRINA, 1
-	db 1, 1, FLASH
-	db 2, 1, KINESIS
-	db 2, 4, PSYWAVE
-	db 3, 1, PSYWAVE
+	; kadabra
+	db 1, 1, REFLECT
+	db 1, 2, LIGHT_SCREEN
+	db 2, 1, BARRIER ; mr. mime
+	; jynx
+	db 3, 1, LOVELY_KISS
+	db 3, 3, PSYCHIC_M
+	db 4, 1, PSYCHIC_M ; hypno
+	; alakazam
+	db 5, 1, THUNDERBOLT
+	db 5, 3, ICE_BEAM
 	db 0
 
 	db GIOVANNI, 3

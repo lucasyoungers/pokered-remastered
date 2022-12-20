@@ -657,7 +657,7 @@ BlaineData:
 	db $FF, 42, GROWLITHE, 40, PONYTA, 42, RAPIDASH, 47, ARCANINE, 0
 
 SabrinaData:
-	db $FF, 38, KADABRA, 37, MR_MIME, 38, VENOMOTH, 43, ALAKAZAM, 0
+	db $FF, 36, KADABRA, 37, MR_MIME, 37, JYNX, 40, HYPNO, 45, ALAKAZAM, 0
 
 GentlemanData:
 ; SS Anne 1F Rooms
