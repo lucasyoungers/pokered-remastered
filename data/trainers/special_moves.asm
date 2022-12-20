@@ -14,8 +14,8 @@ SpecialTrainerMoves:
 	db 0
 
 	db BROCK, 1
-	db 2, 3, BIND
-	db 2, 4, BIDE
+	db 1, 4, BIDE ; geodude
+	db 2, 2, BIDE ; onix
 	db 0
 
 	db MISTY, 1
