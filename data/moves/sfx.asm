@@ -180,7 +180,6 @@ MoveSoundTable:
 	db SFX_BATTLE_13,          $f1, $ff ; SHADOW_BALL
 	db SFX_BATTLE_29,          $0f, $e0 ; BULLDOZE
 	db SFX_BATTLE_29,          $f0, $80 ; DRAGONBREATH
-	db SFX_BATTLE_0D,          $00, $40 ; MACH_PUNCH
 	db SFX_BATTLE_0B,          $00, $80 ; STRUGGLE
 	assert_table_length NUM_ATTACKS
 	db SFX_BATTLE_0B,          $00, $80

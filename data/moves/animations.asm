@@ -179,7 +179,6 @@ AttackAnimationPointers:
 	dw ShadowBallAnim
 	dw BulldozeAnim
 	dw DragonBreathAnim
-	dw MachPunchAnim
 	dw StruggleAnim
 	assert_table_length NUM_ATTACKS
 	dw ShowPicAnim
@@ -267,7 +266,6 @@ DoubleSlapAnim:
 ; 	battle_anim COMET_PUNCH, SUBANIM_0_STAR_THRICE, 0, 4
 ; 	db -1 ; end
 
-MachPunchAnim:
 MegaPunchAnim:
 	battle_anim MEGA_PUNCH, SUBANIM_1_STAR_BIG_MOVING, 1, 6
 	db -1 ; end
