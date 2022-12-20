@@ -25,10 +25,18 @@ SpecialTrainerMoves:
 	db 0
 
 	db LT_SURGE, 1
-	db 1, 1, THUNDERBOLT
-	db 1, 2, MEGA_PUNCH
-	db 1, 3, MEGA_KICK
-	db 1, 4, GROWL
+	; voltorb
+	db 2, 1, SELFDESTRUCT
+	db 2, 2, NO_MOVE
+	db 2, 3, NO_MOVE
+	db 2, 4, NO_MOVE
+	; raichu
+	db 3, 1, QUICK_ATTACK
+	db 3, 2, SWIFT
+	; electabuzz
+	db 4, 1, THUNDERBOLT
+	db 4, 3, FIRE_PUNCH
+	db 4, 4, ICE_PUNCH
 	db 0
 
 	db ERIKA, 1
