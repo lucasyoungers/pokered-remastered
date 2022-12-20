@@ -1812,11 +1812,15 @@ MewtwoEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 63, BARRIER
+	db 11, BARRIER
+	db 22, SWIFT
+	db 33, PSYWAVE
+	db 44, PSYBEAM
+	db 55, MIST
 	db 66, PSYCHIC_M
-	db 70, RECOVER
-	db 75, MIST
-	db 81, AMNESIA
+	db 77, AMNESIA
+	db 88, RECOVER
+	db 99, HYPER_BEAM
 	db 0
 
 SnorlaxEvosMoves:
