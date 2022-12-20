@@ -1299,20 +1299,28 @@ KabutoEvosMoves:
 	db EV_LEVEL, 40, KABUTOPS
 	db 0
 ; Learnset
-	db 34, ABSORB
-	db 39, SLASH
-	db 44, LEER
-	db 49, HYDRO_PUMP
+	db 13, ABSORB
+	db 19, ROCK_THROW
+	db 25, BULLDOZE
+	db 31, MEGA_DRAIN
+	db 37, SLASH
+	db 43, SCREECH
+	db 49, GIGA_DRAIN
+	db 55, ROCK_SLIDE
 	db 0
 
 KabutopsEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 34, ABSORB
-	db 39, SLASH
-	db 46, LEER
-	db 53, HYDRO_PUMP
+	db 13, ABSORB
+	db 19, ROCK_THROW
+	db 25, BULLDOZE
+	db 31, MEGA_DRAIN
+	db 37, SLASH
+	db 46, SCREECH
+	db 55, GIGA_DRAIN
+	db 65, ROCK_SLIDE
 	db 0
 
 HorseaEvosMoves:
