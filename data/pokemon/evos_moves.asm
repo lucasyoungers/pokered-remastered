@@ -1804,10 +1804,13 @@ SnorlaxEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 35, BODY_SLAM
-	db 41, HARDEN
-	db 48, DOUBLE_EDGE
-	db 56, HYPER_BEAM
+	db 6, AMNESIA
+	db 10, HARDEN
+	db 19, HEADBUTT
+	db 28, REST
+	db 33, BODY_SLAM
+	db 42, DOUBLE_EDGE
+	db 51, HYPER_BEAM
 	db 0
 
 MagikarpEvosMoves:
