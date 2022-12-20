@@ -1390,20 +1390,28 @@ OmanyteEvosMoves:
 	db EV_LEVEL, 40, OMASTAR
 	db 0
 ; Learnset
-	db 34, HORN_ATTACK
-	db 39, LEER
-	db 46, SPIKE_CANNON
-	db 53, HYDRO_PUMP
+	db 13, BITE
+	db 19, WATER_GUN
+	db 25, ROCK_THROW
+	db 31, BULLDOZE
+	db 37, WATERFALL
+	db 43, SPIKE_CANNON
+	db 49, ROCK_SLIDE
+	db 55, HYDRO_PUMP
 	db 0
 
 OmastarEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 34, HORN_ATTACK
-	db 39, LEER
-	db 44, SPIKE_CANNON
-	db 49, HYDRO_PUMP
+	db 13, BITE
+	db 19, WATER_GUN
+	db 25, ROCK_THROW
+	db 31, BULLDOZE
+	db 37, WATERFALL
+	db 46, SPIKE_CANNON
+	db 55, ROCK_SLIDE
+	db 65, HYDRO_PUMP
 	db 0
 
 JigglypuffEvosMoves:
