@@ -1108,12 +1108,18 @@ JynxEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 18, LICK
-	db 23, DOUBLESLAP
-	db 31, ICE_PUNCH
-	db 39, BODY_SLAM
-	db 47, THRASH
-	db 58, BLIZZARD
+	db 9, LOVELY_KISS
+	db 13, AURORA_BEAM
+	db 21, DOUBLESLAP
+	db 25, ICE_PUNCH
+	db 30, CONFUSION
+	db 35, SCARY_FACE
+	db 41, SCREECH
+	db 46, PSYBEAM
+	db 51, BODY_SLAM
+	db 57, THRASH
+	db 62, PSYWAVE
+	db 67, BLIZZARD
 	db 0
 
 MoltresEvosMoves:
