@@ -998,11 +998,14 @@ TaurosEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 21, STOMP
-	db 28, TAIL_WHIP
-	db 35, LEER
-	db 44, RAGE
-	db 51, TAKE_DOWN
+	db 4, TAIL_WHIP
+	db 8, RAGE
+	db 13, HORN_ATTACK
+	db 19, SCARY_FACE
+	db 26, STOMP
+	db 34, HEADBUTT
+	db 43, REST
+	db 53, THRASH
 	db 0
 
 MissingNo3DEvosMoves:
