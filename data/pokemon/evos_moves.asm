@@ -473,7 +473,7 @@ ArcanineEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 49, THRASH
+	db 49, OUTRAGE
 	db 0
 
 MewEvosMoves:
