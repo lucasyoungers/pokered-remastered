@@ -56,11 +56,25 @@ SpecialTrainerMoves:
 	db 0
 
 	db BLAINE, 1
-	db 1, 1, FLAMETHROWER
-	db 1, 4, CONFUSE_RAY
-	db 3, 1, FLAMETHROWER
-	db 3, 2, FIRE_BLAST
-	db 3, 3, REFLECT
+	; flareon
+	db 1, 2, DOUBLE_EDGE
+	db 1, 4, FIRE_BLAST
+	; magmar
+	db 2, 2, THUNDERPUNCH
+	db 2, 3, ICE_PUNCH
+	; rapidash
+	db 3, 1, FLAME_CHARGE
+	db 3, 4, MEGAHORN
+	; ninetales
+	db 4, 1, SHADOW_BALL
+	db 4, 2, FLAMETHROWER
+	db 4, 3, CONFUSE_RAY
+	db 4, 4, HAZE
+	; arcanine
+	db 5, 1, FIRE_BLAST
+	db 5, 2, OUTRAGE
+	db 5, 3, HYPER_BEAM
+	db 5, 4, QUICK_ATTACK
 	db 0
 
 	db SABRINA, 1
