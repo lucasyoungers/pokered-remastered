@@ -92,15 +92,36 @@ SpecialTrainerMoves:
 	db 0
 
 	db GIOVANNI, 3
-	db 1, 3, FISSURE
-	db 2, 2, DOUBLE_TEAM
-	db 3, 1, EARTHQUAKE
-	db 3, 3, THUNDER
+	; dugtrio
+	db 1, 1, DIG
+	db 1, 2, SLASH
+	db 1, 3, SUBSTITUTE
+	db 1, 4, FISSURE
+	; beedrill
+	db 2, 1, TWINEEDLE
+	db 2, 2, HYPER_BEAM
+	db 2, 3, SWORDS_DANCE
+	db 2, 4, AGILITY
+	; golem
+	db 3, 1, ROCK_SLIDE
+	db 3, 2, BODY_SLAM
+	db 3, 3, FIRE_BLAST
+	db 3, 4, EXPLOSION
+	; nidoqueen
 	db 4, 1, EARTHQUAKE
-	db 4, 2, LEER
-	db 4, 3, THUNDER
-	db 5, 1, ROCK_SLIDE
-	db 5, 4, EARTHQUAKE
+	db 4, 2, THUNDERBOLT
+	db 4, 3, ICE_BEAM
+	db 4, 4, COUNTER
+	; nidoking
+	db 5, 1, EARTHQUAKE
+	db 5, 2, FIRE_BLAST
+	db 5, 3, MEGAHORN
+	db 5, 4, THRASH
+	; rhydon
+	db 6, 1, EARTHQUAKE
+	db 6, 2, ROCK_SLIDE
+	db 6, 3, BODY_SLAM
+	db 6, 4, HYPER_BEAM
 	db 0
 
 	db LORELEI, 1
