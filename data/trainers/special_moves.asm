@@ -166,18 +166,23 @@ SpecialTrainerMoves:
 	db 0
 
 	db LANCE, 1
-	db 1, 1, DRAGON_RAGE
-	db 2, 1, THUNDER_WAVE
-	db 2, 3, THUNDERBOLT
-	db 3, 1, BUBBLEBEAM
-	db 3, 2, WRAP
-	db 3, 3, ICE_BEAM
-	db 4, 1, WING_ATTACK
-	db 4, 2, SWIFT
-	db 4, 3, FLY
+	db 1, 1, THUNDER ; gyarados
+	; aerodactyl
+	db 2, 2, EARTHQUAKE
+	db 2, 3, AGILITY
+	db 3, 2, ICE_BEAM ; seadra
+	; charizard
+	db 4, 1, FLY
+	db 4, 2, FLAMETHROWER
+	db 4, 3, OUTRAGE
+	; dragonite
 	db 5, 1, BLIZZARD
-	db 5, 2, FIRE_BLAST
-	db 5, 3, THUNDER
+	db 5, 2, THUNDERBOLT
+	db 5, 3, WRAP
+	db 5, 4, THUNDER_WAVE
+	; moltres
+	db 6, 2, THUNDERBOLT
+	db 6, 4, HYPER_BEAM
 	db 0
 
 	db RIVAL3, 1
