@@ -116,12 +116,17 @@ SpecialTrainerMoves:
 	db 0
 
 	db LORELEI, 1
-	db 1, 1, BUBBLEBEAM
-	db 2, 3, ICE_BEAM
-	db 3, 1, PSYCHIC_M
-	db 3, 2, SURF
-	db 4, 3, LOVELY_KISS
-	db 5, 3, BLIZZARD
+	db 1, 2, SURF ; dewgong
+	db 2, 1, ICE_BEAM ; cloyster
+	db 3, 1, SURF ; slowbro
+	; jynx
+	db 4, 1, ICE_PUNCH
+	db 4, 2, THUNDERPUNCH
+	db 4, 3, PSYCHIC_M
+	db 5, 4, BLIZZARD ; lapras
+	; articuno
+	db 6, 1, BLIZZARD
+	db 6, 4, WING_ATTACK
 	db 0
 
 	db BRUNO, 1
