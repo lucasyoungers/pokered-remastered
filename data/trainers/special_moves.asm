@@ -130,30 +130,39 @@ SpecialTrainerMoves:
 	db 0
 
 	db BRUNO, 1
-	db 1, 1, ROCK_SLIDE
-	db 1, 2, SCREECH
-	db 1, 4, DIG
-	db 2, 3, FIRE_PUNCH
-	db 2, 4, DOUBLE_TEAM
-	db 3, 1, DOUBLE_KICK
-	db 3, 2, MEGA_KICK
-	db 3, 4, DOUBLE_TEAM
-	db 4, 1, ROCK_SLIDE
-	db 4, 2, SCREECH
-	db 4, 4, EARTHQUAKE
-	db 5, 2, KARATE_CHOP
-	db 5, 3, STRENGTH
+	db 1, 3, FIRE_PUNCH ; hitmonchan
+	; onix
+	db 3, 1, ROCK_SLIDE
+	db 3, 2, OUTRAGE
+	db 4, 4, KARATE_CHOP ; primeape
+	; poliwrath
+	db 5, 1, SURF
+	db 5, 2, BLIZZARD
+	db 5, 3, AMNESIA
+	db 5, 4, BODY_SLAM
+	; machamp
+	db 6, 1, HI_JUMP_KICK
+	db 6, 2, EARTHQUAKE
+	db 6, 3, ROCK_SLIDE
+	db 6, 4, HYPER_BEAM
 	db 0
 
 	db AGATHA, 1
-	db 1, 2, SUBSTITUTE
-	db 1, 3, LICK
-	db 1, 4, MEGA_DRAIN
-	db 2, 2, TOXIC
-	db 2, 4, LEECH_LIFE
-	db 3, 2, LICK
-	db 4, 1, WRAP
-	db 5, 2, PSYCHIC_M
+	db 1, 1, FIRE_BLAST ; weezing
+	; marowak
+	db 2, 1, BONEMERANG
+	db 2, 2, SHADOW_BALL
+	; golduck
+	db 3, 1, SHADOW_BALL
+	db 3, 2, PSYCHIC_M
+	db 3, 3, ICE_BEAM
+	; ninetales
+	db 4, 1, PSYCHIC_M
+	db 4, 3, FLAMETHROWER
+	; gengar
+	db 5, 1, HYPNOSIS
+	db 5, 3, SLUDGE_WAVE
+	db 6, 2, FIRE_SPIN ; moltres
 	db 0
 
 	db LANCE, 1
