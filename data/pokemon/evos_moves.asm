@@ -790,13 +790,13 @@ HitmonleeEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 6, MEDITATE
-	db 11, ROLLING_KICK
-	db 16, JUMP_KICK
-	db 21, FOCUS_ENERGY
-	db 26, HI_JUMP_KICK
-	db 31, QUICK_ATTACK
-	db 53, MEGA_KICK
+	db 11, MEDITATE
+	db 16, ROLLING_KICK
+	db 21, JUMP_KICK
+	db 26, FOCUS_ENERGY
+	db 31, HI_JUMP_KICK
+	db 36, QUICK_ATTACK
+	db 41, MEGA_KICK
 	db 0
 
 HitmonchanEvosMoves:
