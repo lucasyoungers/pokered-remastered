@@ -186,34 +186,39 @@ SpecialTrainerMoves:
 	db 0
 
 	db RIVAL3, 1
-	db 1, 3, EARTHQUAKE
-	db 2, 4, KINESIS
-	db 3, 4, LEECH_SEED
-	db 4, 1, ICE_BEAM
-	db 5, 1, CONFUSE_RAY
-	db 5, 4, FIRE_SPIN
-	db 6, 3, QUICK_ATTACK
+	db 1, 3, FLY ; scyther
+	db 2, 1, EARTHQUAKE ; tauros
+	; arcanine
+	db 3, 1, FIRE_BLAST
+	db 3, 2, EARTHQUAKE
+	db 3, 3, HYPER_BEAM
+	; exeggutor
+	db 4, 1, GIGA_DRAIN
+	db 4, 2, PSYCHIC_M
+	db 4, 3, BARRAGE
+	db 5, 2, BLIZZARD ; blastoise
 	db 0
 
 	db RIVAL3, 2
-	db 1, 3, EARTHQUAKE
-	db 2, 4, KINESIS
-	db 3, 4, LEECH_SEED
-	db 4, 1, THUNDERBOLT
-	db 5, 1, ICE_BEAM
-	db 6, 2, REFLECT
-	db 6, 3, QUICK_ATTACK
+	db 1, 3, FLY ; scyther
+	db 2, 1, EARTHQUAKE ; tauros
+	db 3, 1, ICE_BEAM ; gyarados
+	; arcanine
+	db 4, 1, FIRE_BLAST
+	db 4, 2, EARTHQUAKE
+	db 4, 3, HYPER_BEAM
+	db 5, 4, SLEEP_POWDER
 	db 0
 
 	db RIVAL3, 3
-	db 1, 3, EARTHQUAKE
-	db 2, 4, KINESIS
-	db 3, 4, LEECH_SEED
-	db 4, 1, CONFUSE_RAY
-	db 4, 4, FIRE_SPIN
-	db 5, 1, THUNDERBOLT
-	db 6, 1, AURORA_BEAM
-	db 6, 3, QUICK_ATTACK
+	db 1, 3, FLY ; scyther
+	db 2, 1, EARTHQUAKE ; tauros
+	; exeggutor
+	db 3, 1, GIGA_DRAIN
+	db 3, 2, PSYCHIC_M
+	db 3, 3, BARRAGE
+	db 4, 1, ICE_BEAM ; gyarados
+	db 5, 3, FLY ; charizard
 	db 0
 
 	db -1 ; end
