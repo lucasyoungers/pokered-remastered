@@ -14,3 +14,5 @@ DiglettsCaveWildMons:
 
 	def_water_wildmons 0 ; encounter rate
 	end_water_wildmons
+
+; unchanged, diglett's cave is perfect :)
